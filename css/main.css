@@ -1,0 +1,2519 @@
+
+
+body {
+  background-color: white;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0px;
+  position: relative;
+  min-height: 100%;
+}
+
+.container{
+
+  width: 100%;
+  max-width:1300px;
+  margin: 0 auto; 
+}
+
+
+.navbar{
+
+  width: 100%;
+  height: 80px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  padding: 15px 0 15px 0;
+  background: #fff;
+
+}
+
+
+/* LOGO */
+  
+  .navbar .logo{
+
+    width: 50px;
+    padding-left: 20px;
+  }
+  
+  /* NAVIGATION */
+
+  .navbar ul{
+
+    list-style: none;
+    margin:0 auto;
+    bottom: 50%;
+    transform: translateY(50%);
+    float: right;
+   
+  }
+  
+  .navbar ul li{
+    display: inline-block;
+    margin: 0;
+    padding-right: 40px;
+
+  }
+
+  .navbar ul li a{
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 600;
+    color: #141415;
+    text-decoration: none;
+    transition: 0.3s all;
+
+  
+  }
+
+  .navbar ul li a:hover{
+
+    color: #424ECC;
+
+  }
+ 
+   .nav-link::after{
+    content: '';
+    display: block;
+    width: 0%;
+    height: 4px;
+    background-color: #424ECC;
+    transition: width .3s;
+  }
+
+  .nav-link:hover::after{
+    
+    width: 100%;
+    transition: width .3;
+  } 
+
+
+
+.navbar ul .button1{
+
+
+  color: #ffffff;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px; 
+  line-height: 40px;
+  display: inline-block;
+  border-radius: 5px;
+  background-color: #424ECC;
+  border: none;
+  text-align: center;
+  margin-right: 20px;  
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  
+
+}
+
+.navbar ul .button1:hover {
+  background-color: #424ECC;
+  color: white;
+  transform: scale(1.05);
+}
+
+.clear{
+  clear: both;
+}
+
+.navbar-mobile{
+
+  display: none;
+}
+
+/* HERO */
+
+.hero{
+
+   background-image: url(../img/Hero-Cover.jpg);
+   background-size: cover;
+   background-position: 20%;
+   width: 100%;
+   height: 89vh;
+   
+}
+
+
+.hero .hero-left, .hero .hero-right{
+
+float: left;
+width: 50%;
+height: 768px;
+
+}
+
+.hero .hero-left{
+
+text-align: left;
+position: relative;
+
+}
+
+.hero .hero-left .info{
+position:absolute;
+width: 100%;
+top:50%;
+transform: translateY(-50%);
+padding-left: 20px;
+
+}
+
+.hero .hero-left .info .Name{
+color: #FFFFFF;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 800;
+font-size: 60px;
+line-height: 73px;
+}
+
+.hero .hero-left .info .Last-Name{
+color: #141415;
+margin-bottom: 30px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 800;
+font-size: 60px;
+line-height: 73px;
+
+}
+
+.hero .hero-left .info .Desc{
+color: #141415;
+margin-bottom: 40px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 38px;
+line-height: 46px;
+
+}
+
+
+.hero .hero-left .info .button2{
+
+  color: #424ECC;
+  margin-bottom: 30px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 20px;
+  display: inline-block;
+  border-radius: 5px;
+  background-color: #FFFFFF;
+  border: none;
+  text-align: center;
+  font-size: 25x;
+  padding: 20px;
+  width: 250px;
+  transition: all 0.5s;
+  cursor: pointer;
+
+}
+
+
+.hero .hero-left .info .button2:hover {
+  background-color: #FFFFFF;
+  color: #424ECC;
+  transform: scale(1.05);
+}
+
+
+.hero .hero-right{
+
+position: relative;
+
+}
+
+.hero .hero-right img {
+display: block;
+position: absolute;
+width: 50%;
+top: 50%;
+transform: translateY(-50%);
+right: 0px;
+padding-right: 20px;
+
+}
+
+.clear{
+  clear: both;
+}
+
+
+.hero .hero-right-mobile{
+  display: none;
+}
+
+.hero .hero-left-mobile{
+  display: none;
+}
+
+
+/* ABOUT */
+
+.about{
+
+  font-family: 'Montserat', monospace ;  
+  background-color: #ffffff;
+
+}
+
+.about .title{
+  color: #424ECC;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 60px;
+  line-height: 73px;
+  padding-top: 90px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  }
+  
+  .about .sub_titile{
+    
+    text-align: left;
+    color: #141415;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 73px;
+    padding-top: 32px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+
+    }
+    
+    
+  .about .description1{
+
+    text-align: left;
+    padding-top: 16px;
+    color: #141415;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+  }
+
+  .about .description2{
+
+    text-align: left;
+    padding-top: 16px;
+    padding-bottom: 64px;
+    color: #141415;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+
+    }
+  
+  
+
+    .about .button3{
+      color: #ffffff;
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 25px;
+      line-height: 10px;
+      display: inline-block;
+      border-radius: 5px;
+      background-color: #ffffff;
+      border: 3px solid #424ECC;
+      color: #424ECC;
+      text-align: center;
+      padding: 20px;
+      width: 250px;
+      transition :all 0.5s;
+      cursor: pointer;
+      margin-bottom: 90px;
+      margin-left:20px;
+      
+      }
+
+    .about .button3:hover {
+      background-color: #424ECC;
+      color: white;
+      transform: scale(1.05);
+    }
+
+
+.clear{
+  clear: both;
+}
+
+
+/* My Design Process */
+
+.process{
+
+  font-family: 'Montserat', monospace ;  
+  background: #ECEDF9;
+  width: 100%;
+  height: auto;
+
+
+}
+
+
+.process .title2{
+  color: #424ECC;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 60px;
+  line-height: 73px;
+  padding-top: 90px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+
+  }
+  
+  .process .sub_titile2{
+    
+    text-align: left;
+    color: #141415;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 73px;
+    padding-top: 32px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+
+
+    }
+    
+    
+.process .intro{
+
+    text-align: left;
+    color: #141415;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 30px;
+    padding-top: 16px;
+    padding-bottom: 45px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+
+  }
+
+.process .button4{
+
+    color: #ffffff;
+    margin-bottom: 32px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 20px;
+    display: inline-block;
+    border-radius: 5px;
+    background-color: #424ECC;
+    border: none;
+    text-align: center;
+    font-size: 25x;
+    padding: 20px;
+    width: 250px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-left: 20px;
+
+  }
+  
+  
+.process .button4:hover {
+
+  color: white;
+  transform: scale(1.05);
+
+} 
+
+
+/* BOXES */
+.boxes{
+ width: 100%;
+ height: auto;
+ padding-top: 32px;
+ padding-bottom: 32px;
+ font-family: Open Sans;
+ font-style: normal;
+ font-weight: 500;
+ font-size: 22px;
+ background: #ECEDF9;
+ 
+}
+
+
+.boxes .all{
+
+  width: 100%;
+  margin-left: 20px;
+}
+
+.boxes .all .card1{
+
+  width: calc(24% - 0px); 
+  background: #fff; 
+  text-align: center;
+  border-radius: 5px;
+  padding: 40px 40px;
+  cursor: text;
+  transition: all 0.3s ease;
+  margin-bottom: 40px;
+  float: left;
+  margin-right: 40px;
+
+}
+
+
+.boxes .all .card1:hover{
+  background: #424ECC;
+ 
+}
+
+.boxes .all .card1 .box svg{
+
+  display: inline;
+  width: 150px;
+  height: auto;
+  fill: #424ECC;
+  transition: color 0.3s ease;
+  
+}
+  
+  .boxes .all .card1:hover .box svg {
+    
+    display: inline;
+    width: 150px;
+    height: auto;
+    fill: #ffffff;
+        
+  }
+
+
+.boxes .all .card1 .text{
+  font-size: 25px;
+  font-weight: 500;
+  padding-bottom: 20px;
+  color:#000;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 45px;
+
+}
+
+
+.boxes .all .card1:hover .text{
+  transform: scale(1.05);
+  color: #FFFFFF;
+
+}
+
+.boxes .all .card1 p{
+ 
+
+  margin: 0;
+  padding-bottom:20px;
+  line-height: 32px;
+
+}
+
+.boxes .all .card1 .box{
+  transition: all 0.3s ease;
+
+}
+
+.boxes .all .card1:hover .box{
+  transform: scale(1.05);
+  color: #FFFFFF;
+
+}
+
+
+.boxes .all .card2{
+
+  width: calc(24% - 0px); 
+  background: #fff; 
+  text-align: center;
+  border-radius: 5px;
+  padding: 40px 40px;
+  cursor: text;
+  transition: all 0.3s ease;
+  margin-bottom: 40px;
+  float: left;
+  margin-right: 40px;
+
+}
+
+
+.boxes .all .card2:hover{
+  background: #424ECC;
+ 
+}
+
+.boxes .all .card2 .box svg{
+
+  display: inline;
+  width: 150px;
+  height: auto;
+  fill: #424ECC;
+  transition: color 0.3s ease;
+  
+}
+  
+  .boxes .all .card2:hover .box svg {
+    
+    display: inline;
+    width: 150px;
+    height: auto;
+    fill: #ffffff;
+        
+  }
+
+
+.boxes .all .card2 .text{
+  font-size: 25px;
+  font-weight: 500;
+  padding-bottom: 20px;
+  color:#000;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 45px;
+
+}
+
+
+.boxes .all .card2:hover .text{
+  transform: scale(1.05);
+  color: #FFFFFF;
+
+}
+
+.boxes .all .card2 p{
+ 
+
+  margin: 0;
+  padding-bottom:20px;
+  line-height: 32px;
+
+}
+
+.boxes .all .card2 .box{
+  transition: all 0.3s ease;
+
+}
+
+.boxes .all .card2:hover .box{
+  transform: scale(1.05);
+  color: #FFFFFF;
+
+}
+
+.boxes .all .card3{
+
+  width: calc(24% - 0px); 
+  background: #fff; 
+  text-align: center;
+  border-radius: 5px;
+  padding: 40px 40px;
+  cursor: text;
+  transition: all 0.3s ease;
+  margin-bottom: 40px;
+  float: left;
+  margin-right: 40px;
+
+}
+
+
+.boxes .all .card3:hover{
+  background: #424ECC;
+ 
+}
+
+.boxes .all .card3 .box svg{
+
+  display: inline;
+  width: 150px;
+  height: auto;
+  fill: #424ECC;
+  transition: color 0.3s ease;
+  
+}
+  
+  .boxes .all .card3:hover .box svg {
+    
+    display: inline;
+    width: 150px;
+    height: auto;
+    fill: #ffffff;
+        
+  }
+
+
+.boxes .all .card3 .text{
+  font-size: 25px;
+  font-weight: 500;
+  padding-bottom: 20px;
+  color:#000;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 45px;
+
+}
+
+
+.boxes .all .card3:hover .text{
+  transform: scale(1.05);
+  color: #FFFFFF;
+
+}
+
+.boxes .all .card3 p{
+ 
+
+  margin: 0;
+  padding-bottom:20px;
+  line-height: 32px;
+
+}
+
+.boxes .all .card3 .box{
+  transition: all 0.3s ease;
+
+}
+
+.boxes .all .card3:hover .box{
+  transform: scale(1.05);
+  color: #FFFFFF;
+
+}
+
+
+.clear{
+  clear: both;
+}
+
+.boxes .all .card4{
+
+  width: calc(24% - 0px); 
+  background: #fff; 
+  text-align: center;
+  border-radius: 5px;
+  padding: 40px 40px;
+  cursor: text;
+  transition: all 0.3s ease;
+  margin-bottom: 40px;
+  float: left;
+  margin-right: 40px;
+
+}
+
+
+.boxes .all .card4:hover{
+  background: #424ECC;
+ 
+}
+
+.boxes .all .card4 .box svg{
+
+  display: inline;
+  width: 150px;
+  height: auto;
+  fill: #424ECC;
+  transition: color 0.3s ease;
+  
+}
+  
+  .boxes .all .card4:hover .box svg {
+    
+    display: inline;
+    width: 150px;
+    height: auto;
+    fill: #ffffff;
+        
+  }
+
+
+.boxes .all .card4 .text{
+  font-size: 25px;
+  font-weight: 500;
+  padding-bottom: 20px;
+  color:#000;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 45px;
+
+}
+
+
+.boxes .all .card4:hover .text{
+  transform: scale(1.05);
+  color: #FFFFFF;
+
+}
+
+.boxes .all .card4 p{
+ 
+
+  margin: 0;
+  padding-bottom:20px;
+  line-height: 32px;
+
+}
+
+.boxes .all .card4 .box{
+  transition: all 0.3s ease;
+
+}
+
+.boxes .all .card4:hover .box{
+  transform: scale(1.05);
+  color: #FFFFFF;
+
+}
+
+.boxes .all .card5{
+
+  width: calc(24% - 0px); 
+  background: #fff; 
+  text-align: center;
+  border-radius: 5px;
+  padding: 40px 40px;
+  cursor: text;
+  transition: all 0.3s ease;
+  margin-bottom: 40px;
+  float: left;
+  margin-right: 40px;
+
+}
+
+
+.boxes .all .card5:hover{
+  background: #424ECC;
+ 
+}
+
+.boxes .all .card5 .box svg{
+
+  display: inline;
+  width: 150px;
+  height: auto;
+  fill: #424ECC;
+  transition: color 0.3s ease;
+  
+}
+  
+  .boxes .all .card5:hover .box svg {
+    
+    display: inline;
+    width: 150px;
+    height: auto;
+    fill: #ffffff;
+        
+  }
+
+
+.boxes .all .card5 .text{
+  font-size: 25px;
+  font-weight: 500;
+  padding-bottom: 20px;
+  color:#000;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 45px;
+
+}
+
+
+.boxes .all .card5:hover .text{
+  transform: scale(1.05);
+  color: #FFFFFF;
+
+}
+
+.boxes .all .card5 p{
+ 
+
+  margin: 0;
+  padding-bottom:20px;
+  line-height: 32px;
+
+}
+
+.boxes .all .card5 .box{
+  transition: all 0.3s ease;
+
+}
+
+.boxes .all .card5:hover .box{
+  transform: scale(1.05);
+  color: #FFFFFF;
+
+}
+
+.boxes .all .card6{
+
+  width: calc(24% - 0px); 
+  background: #fff; 
+  text-align: center;
+  border-radius: 5px;
+  padding: 40px 40px;
+  cursor: text;
+  transition: all 0.3s ease;
+  margin-bottom: 40px;
+  float: left;
+  margin-right: 40px;
+
+}
+
+
+.boxes .all .card6:hover{
+  background: #424ECC;
+ 
+}
+
+.boxes .all .card6 .box svg{
+
+  display: inline;
+  width: 150px;
+  height: auto;
+  fill: #424ECC;
+  transition: color 0.3s ease;
+  
+}
+  
+  .boxes .all .card6:hover .box svg {
+    
+    display: inline;
+    width: 150px;
+    height: auto;
+    fill: #ffffff;
+        
+  }
+
+
+.boxes .all .card6 .text{
+  font-size: 25px;
+  font-weight: 500;
+  padding-bottom: 20px;
+  color:#000;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 45px;
+
+}
+
+
+.boxes .all .card6:hover .text{
+  transform: scale(1.05);
+  color: #FFFFFF;
+
+}
+
+.boxes .all .card6 p{
+ 
+
+  margin: 0;
+  padding-bottom:20px;
+  line-height: 32px;
+
+}
+
+.boxes .all .card6 .box{
+  transition: all 0.3s ease;
+
+}
+
+.boxes .all .card6:hover .box{
+  transform: scale(1.05);
+  color: #FFFFFF;
+
+}
+
+
+.clear{
+
+  clear: both;
+}
+
+
+/* MY WORK */
+
+.work{
+
+  width: 100%;
+  font-family: 'Montserat', monospace ;  
+  background-color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+
+} 
+
+.work .title-work{
+
+  color: #424ECC;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 60px;
+  line-height: 73px;
+  padding: 90px 20px 64px 20px;
+  
+} 
+
+.project-left, .project-right{
+
+  width: calc(100%-40px);
+  height: 495px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 90px;
+
+}
+
+.project-left .img-box-mobile{
+
+  display: none;
+}
+.project-right .img-box-mobile{
+
+  display: none;
+}
+
+.project-left .img-box{
+  float: left;
+  width: 600px;
+  height: 495px;
+
+
+}
+
+.project-right .img-box{
+  float: right;
+
+  width: 600px;
+  height: 495px;
+}
+
+.project-left .img-box img, .project-right .img-box img{
+  
+  width:100%;
+ 
+}
+
+.project-left .content-box{
+  width: 48%;
+  position: relative;
+  right: 0;
+  float: right;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.project-right .content-box{
+  width: 48%;
+  position: relative;
+  left: 0;
+  float: left;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.project-left .content-box .project-tags, .project-right .content-box .project-tags{
+  
+  color: #141415;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 32px;
+  right: 0%;
+  padding-left: 65px; 
+
+}
+
+.project-left .content-box .project-title, .project-right .content-box .project-title{
+  font-size: 30px;
+  font-weight: bold;
+  color: #141415;
+  margin-bottom: 0px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  padding-left: 65px; 
+  padding-right: 65px;
+
+}
+
+.project-left .content-box .description3, .project-right .content-box .description3{
+  color: #141415;
+  margin-bottom: 32px;
+  font-family: Open Sans;  
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  margin-top: 0px;
+  padding-left: 65px;
+  padding-right: 65px;
+
+}
+
+
+.project-left .content-box .button5, .project-right .content-box .button5{
+
+
+  color: #ffffff;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 10px;
+  display: inline-block;
+  border-radius: 5px;
+  background-color: #ffffff;
+  border: 3px solid #424ECC;
+  color: #424ECC;
+  text-align: center;
+  padding: 20px;
+  width: 250px;
+  transition :all 0.5s;
+  cursor: pointer;
+  margin-left: 65px;  
+ 
+}
+.project-left .content-box .button5:hover{
+
+  background-color: #424ECC;
+  color: white;
+  transform: scale(1.05);
+}
+
+.project-right .content-box .button5:hover{
+
+  background-color: #424ECC;
+  color: white;
+  transform: scale(1.05);
+}
+
+
+.work .separator{
+ 
+  border-bottom: #eeeeee solid 2px ;
+
+}
+.clear{
+
+  clear: both;
+}
+
+
+/* ADDITIONAL WORKS */
+
+ .additional-work{
+  font-family: 'Montserat', monospace ;  
+  background-color:#ECEDF9;
+  padding: 0px;
+  width: 100%;
+  height: auto;
+
+}
+
+.additional-work .title-work{
+  color: #424ECC;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 60px;
+  line-height: 73px;
+  padding: 90px 20px 64px 20px;
+  }
+
+
+/* additional-boxes */
+
+.additional-boxes{
+
+  height: 600px;
+  background-color:#ECEDF9;
+  color: #fff;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+
+}
+
+
+.additional-boxes .logo-box {
+  
+  height: 495px;
+  display: block;
+  float: left;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 90px;
+  position: relative;
+  text-align: center;
+  background-color: #000;
+ 
+
+}
+
+.additional-boxes .logo-box img{
+
+  width: 100%;
+  height: auto;
+  transition: color 0.3s ease;
+  opacity: 0.2; 
+  background-repeat: no-repeat;
+  background-size: contain; 
+
+ }
+
+ .additional-boxes .logo-box img:hover {
+   
+  opacity: 0.6;
+}
+
+
+
+.additional-boxes .logo-box .text {
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.additional-boxes .logo-box:hover .text{  
+  color: #fff;
+  font-style: bold;
+  font-weight: 600;
+  cursor: pointer;
+
+
+} 
+
+
+.additional-boxes .photoshop-box {
+  
+  height: 495px;
+  display: block;
+  float: right;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 90px;
+  position: relative;
+  text-align: center;
+  background-color: #000;
+
+}
+
+.additional-boxes .photoshop-box img{
+
+  width: 100%;
+  height: auto;
+  transition: color 0.3s ease;
+  opacity: 0.2; 
+  background-repeat: no-repeat;
+  background-size: contain; 
+
+ }
+
+.additional-boxes .photoshop-box img:hover {
+   
+  opacity: 0.6;
+}
+
+
+.additional-boxes .photoshop-box .text {
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.additional-boxes .photoshop-box:hover .text{  
+  color: #fff;
+  font-style: bold;
+  font-weight: 600;
+  cursor: pointer;
+
+} 
+
+
+ .additional-boxes .logo-box-mobile{
+   
+  display: none;
+  
+ }
+
+ .additional-boxes .photoshop-box-mobile{
+  
+  display: none;
+  
+ }
+ 
+ 
+
+/* Footer */
+
+.footer{
+
+ position: absolute;
+ background-color: #141415;
+ width: 100%;
+height: auto;
+
+}
+.footer .info{
+
+padding-top: 90px;
+position: relative;
+text-align: center;
+
+}
+
+.footer .info .title{
+ color: #424ECC;
+ font-family: Montserrat;
+ font-style: normal;
+ font-weight: 800;
+ font-size: 60px;
+ line-height: 73px;
+ padding-bottom: 45px;
+ padding-left:20px;
+ padding-right: 20px;
+
+ }
+ 
+.footer .info .Desc {
+
+   color:#ffffff;
+   font-family: Open Sans;
+   margin: 0 64px 64px 64px;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 22px;
+   line-height: 30px; 
+ }
+
+
+ .footer .info .button2{
+
+  color: #ffffff;
+  margin-bottom: 30px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 20px;
+  display: inline-block;
+  border-radius: 5px;
+  background-color: #424ECC;
+  border: none;
+  text-align: center;
+  font-size: 25x;
+  padding: 20px;
+  width: 300px;
+  transition: all 0.5s;
+  cursor: pointer;
+
+}
+
+.footer .info .button2:hover {
+  background-color: #424ECC;
+  color: white;
+  transform: scale(1.05);
+
+} 
+
+
+ .footer .info .Desc-time{
+
+   color: #ffffff;
+   margin-top: 0px;
+   margin-bottom: 64px;
+   font-family: Open Sans;
+
+   font-style: normal;
+   font-weight: 200;
+   font-size: 18px;
+   line-height: 30px; 
+ 
+ }
+
+ .footer .info .social{
+
+   color: #fff;
+   margin-bottom: 32px;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 22px;
+   line-height: 30px; 
+   padding: 0px 15px 0px 15px;
+ }
+
+ .footer .info .social i{
+   font-size: 32px;
+   color: #fff;
+   padding: 0 32px;
+ }
+
+ .footer .info .social i:hover {
+ 
+  color: #424ECC;
+  cursor: pointer;
+  transform: scale(1.05);
+
+}
+
+.footer .info .copyright{
+
+   font-family: Montserrat;
+   color: #ffffff;
+   margin-top: 60px;
+   margin-bottom: 0px;
+   font-style: normal;
+   font-weight: 300;
+   font-size: 16px;
+   line-height: 30px; 
+   padding: 20px;
+ } 
+
+
+  /* Back to top */
+
+  #myBtn {
+    display: none;
+    position:fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 0;
+    font-size: 30px;
+    border: none;
+    outline: none;
+    background-color:#424ECC;
+    color: white;
+    cursor: pointer;
+    padding: 5px 12px;
+    border-radius: 5px;
+  }
+  
+  #myBtn:hover {
+
+    color: #fff;
+    cursor: pointer;
+    transform: scale(1.05);
+  }
+  
+
+
+
+ /* ----------------------RESPONSIVE SCREEN ----------------------*/
+
+
+
+@media  screen and (max-width:1260px){
+
+
+  /* HERO */
+  
+  .hero .hero-left{
+    display: none;
+  }
+  
+  .hero .hero-right{
+    display: none;
+  }
+    
+  .hero .hero-right-mobile{
+    display: block;
+    width: initial;
+    position: initial;
+    transform: initial;
+    margin-bottom: 18px;
+    text-align: center;
+
+  
+  }
+  
+  .hero .hero-right-mobile img{
+  
+    width: auto;
+    position: initial;
+    transform: initial;
+  
+ }
+  
+  .hero .hero-left-mobile{
+  
+    display: block;
+    width: initial;
+    position: initial;
+    transform: initial;
+    float: left;
+  }
+  
+  .hero .hero-left-mobile .info{
+    
+    width: initial;
+    position: initial;
+    transform: initial;
+    float: none;
+    padding-left: 20px;
+    padding-right: 20px;
+ 
+  }
+  
+  .hero .hero-left-mobile .info .Name{
+    color: #ffffff;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 73px;
+    }
+    
+    .hero .hero-left-mobile .info .Last-Name{
+    color: #141415;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 73px;  
+    }
+    
+    .hero .hero-left-mobile .info .Desc{
+    color: #141415;
+    margin-bottom: 32px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 46px;  
+    }
+    
+    
+    .hero .hero-left-mobile .info .button2{
+    
+     color: #424ECC;
+     margin-bottom: 30px;
+     font-family: Montserrat;
+     font-style: normal;
+     font-weight: normal;
+     font-size: 20px;
+     line-height: 20px;
+     display: inline-block;
+     border-radius: 5px;
+     background-color: #FFFFFF;
+     border: none;
+     padding: 18px;
+     width: 220px;
+     transition: all 0.5s;
+     cursor: pointer;
+    
+    }
+    
+    
+    .hero .hero-left-mobile .info .button2:hover {
+    
+      color: #424ECC;
+     transform: scale(1.05);
+  
+    }
+    
+  /* ABOUT */
+  
+  .about .title {
+   
+    font-size: 50px;
+    padding-top: 64px;
+  }
+  
+  .about .sub_titile {
+   
+    font-size: 28px;
+    padding-top: 18px;
+   
+  }
+  
+  .about .description1 {
+  
+    font-size: 20px;
+    padding-top: 9px;
+  
+  }
+  
+  .about .description2 {
+  
+    font-size: 20px;
+    padding-top: 18px;
+    padding-bottom: 32px;
+  }
+  
+  .about .button3 {
+    font-size: 20px;
+    padding: 18px;
+    width: 220px;
+    margin-bottom: 64px;
+  }
+  
+  .process .title2 {
+    font-size: 50px;
+    padding-top: 64px;
+  }
+  
+  .process .sub_titile2 {
+   
+    font-size: 25px;
+    padding-top: 18px;
+   
+  }
+  
+  .process .intro {
+  
+    font-size: 20px;
+    padding-top: 18px;
+    padding-bottom: 32px;
+  }
+  
+  .process .button4 {
+    font-size: 20px;
+    padding: 18px;
+    width: 220px;
+    margin-bottom: 0px;
+  }
+
+  
+  /* BOXES */
+    /* .boxes .all {
+      
+      visibility: visible;
+      display: initial;
+      position:initial;
+      float: none;
+  
+    }
+  
+    .boxes .all .card1, .boxes .all .card2, .boxes .all .card3, .boxes .all .card4,  .boxes .all .card5,  .boxes .all .card6{
+  
+      width: initial;
+      margin-left: 20px;
+      margin-right: 20px; 
+      margin-bottom: 32px;
+      font-size: 18px;
+  
+    }*/
+  
+    .boxes .all .card1 .text, .boxes .all .card2 .text, .boxes .all .card3 .text, .boxes .all .card4 .text, .boxes .all .card5 .text, .boxes .all .card6 .text{
+  
+      font-size: 28px;
+  
+    } 
+
+    .boxes .all {
+    
+      visibility: visible;
+      display: initial;
+      position:initial;
+      margin-left: 0px;
+    
+    }
+    
+    .boxes .all .card1{
+      width: 36%;
+      font-size: 20px;
+      margin-left: 20px;
+      margin-right: 32px; 
+      margin-bottom: 90px;
+      float: left;
+    
+    }
+    
+    .boxes .all .card2{
+      width: 36%;
+      font-size: 20px;
+      margin-right: 20px;
+      margin-left: 32px;
+      margin-bottom: 90px;
+      float: right;
+
+    }
+    
+    .clear {
+      clear: both;
+    }
+       
+    .boxes .all .card3{
+      width: 36%;
+      font-size: 20px;
+      margin-left: 20px;
+      margin-right: 32px; 
+      margin-bottom: 90px;
+      float: left;
+    
+    }
+    
+    .boxes .all .card4{
+      width: 36%;
+      font-size: 20px;
+      margin-right: 20px;
+      margin-left: 32px;
+      margin-bottom: 90px;
+      float: right;
+
+    }
+    .clear {
+      clear: both;
+    }
+    .boxes .all .card5{
+      width: 36%;
+      font-size: 20px;
+      margin-left: 20px;
+      margin-right: 32px; 
+      margin-bottom: 90px;
+      float: left;
+    
+    }
+    
+    .boxes .all .card6{
+      width: 36%;
+      font-size: 20px;
+      margin-right: 20px;
+      margin-left: 32px;
+      margin-bottom: 90px;
+      float: right;
+
+    }
+    
+    .clear {
+      clear: both;
+    }
+  
+  /* WORK */
+  
+   .work .title-work{
+  
+    padding:64px 20px 32px 20px;
+    font-size: 50px;
+   }
+  
+  .project-left, .project-right{
+  
+    height: initial;
+    margin-bottom: 64px;
+  }
+  
+  .project-left .img-box{
+  
+    display: none;
+  
+  }
+  .project-left .img-box-mobile{
+    
+    display: block;
+  
+  }
+  
+  .project-left .img-box-mobile img {
+  
+    width: 100%;
+    height: auto;
+  
+  }
+  
+  .project-right .img-box{
+  
+    display: none;
+  }
+  
+  .project-right .img-box-mobile {
+  
+    display: block;
+  
+  }
+  
+  .project-right .img-box-mobile img {
+  
+    width: 100%;
+    height: auto;
+   
+  }
+  
+  
+  .project-left .content-box{
+    
+    width: initial;
+    float: none;
+    position: initial;
+    transform: initial;
+    margin-top: 32px;
+  
+  }
+  
+  .project-right .content-box{
+  
+    width: initial;
+    float: none;
+    position: initial;
+    transform: initial;
+    margin-top: 18px;
+  
+  }
+  
+  .project-left .content-box .project-tags, .project-right .content-box .project-tags {
+  
+    font-size: 18px;
+    line-height: 40px;
+    padding-left:18px;
+    padding-right: 18px;
+  
+  }
+  
+  .project-left .content-box .project-title, .project-right .content-box .project-title {
+    
+    font-size: 28px;
+    padding-left: 18px;
+    padding-right: 18px;
+  
+  }
+  
+  .project-left .content-box .description3, .project-right .content-box .description3 {
+  
+    font-size: 20px;
+    padding-left: 18px;
+    padding-right: 18px;
+  
+  }
+  
+  .project-left .content-box .button5, .project-right .content-box .button5 {
+   
+    font-size: 20px;
+    padding: 18px;
+    width: 220px;
+    margin-left: 18px;
+  
+  
+  }
+  
+  /* ADDITIONAL WORK */
+  
+  .additional-work .title-work {
+    padding: 64px 20px 32px 20px;
+    font-size: 50px;
+}
+
+  .additional-boxes{
+  
+    width: 80%;
+    height: auto;
+    padding-bottom: 64px;
+    font-size: 0px;
+   
+  }
+  
+  .additional-boxes .logo-box, .additional-boxes .photoshop-box {
+  
+    display: none;
+  
+  }
+   
+   .additional-boxes .logo-box-mobile {
+  
+     display:block;
+     margin-left:20px;
+     position: relative;
+     margin-bottom: 32px;
+     padding-right: 20px;
+     background-color: black;
+  
+  }
+  
+  .additional-boxes .photoshop-box-mobile {
+  
+    display:block;
+    margin-right:20px;
+    padding-left: 20px;
+    position: relative;
+    background-color: black;
+    
+  
+  }
+  
+  
+  .additional-boxes  .logo-box-mobile img, .additional-boxes .photoshop-box-mobile img{
+  
+    width: 100%;
+    opacity: 0.3;
+    background-repeat: no-repeat;
+    background-size: contain;
+   
+   }
+  
+  .additional-boxes .logo-box-mobile .text, .additional-boxes .photoshop-box-mobile .text{
+    
+    font-size: 28px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  
+  }
+  
+  .footer .info {
+  
+    padding-top: 64px;
+  }
+  
+  .footer .info .title{
+  
+  color: #424ECC;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 60px;
+  padding-left: 20px;
+  padding-right: 20px;
+  
+  }
+  
+  .footer .info .Desc {
+    margin: 0 40px 64px 40px;
+    font-size: 22px;
+}
+
+  .footer .info .button2 {
+  
+    width: 260px;
+    font-size: 20px;
+    padding: 14px;
+  
+  }
+  
+  .footer .info .Desc-time {
+  
+    font-size: 16px;
+    line-height: 0;
+  }
+  
+  .footer .info .social i{
+  
+    font-size: 28px;
+    padding: 0 18px;
+  }
+  .footer .info .copyright{
+  
+    margin-top: 18px;
+    margin-bottom: 9px;
+    font-size: 14px;
+  }
+  
+  }
+
+
+
+@media  screen and (max-width:995px){
+
+/* NAVBAR */
+
+.navbar{
+  display: none;
+}
+
+.navbar-mobile{
+
+  display: inline-block;
+  width: 100%;
+  background-color: #FFFFFF;
+}
+
+.navbar-mobile .logo {
+  
+  width:35px;
+  display: block;
+  float: left;
+  padding: 15px 15px;
+ 
+}
+
+
+.navbar-mobile .sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0; 
+  left: 0;
+  background-color: #141414;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 32px;
+  text-align: center;
+
+}
+
+.navbar-mobile .sidenav a {
+  padding: 18px 8px 18px 8px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #ffffff;
+  display: block;
+  transition: 0.3s;
+  text-align: center; 
+
+}
+
+.navbar-mobile .sidenav a:hover {
+  color: #424ECC;
+
+}
+
+.navbar-mobile .sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 15px;
+  font-size: 80px;
+  margin-left: 50px;
+}
+
+
+/* II part  */
+
+.navbar-mobile .sidenav {
+  padding-top: 160px;
+
+}
+
+
+/* BUTTON MENU */
+
+.navbar-mobile .button1{
+
+
+  color: #ffffff;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px; 
+  line-height:50px;
+  display: inline-block;
+  border-radius: 5px;
+  background-color: #424ECC;
+  border: none;
+  margin-top: 32px;  
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  
+
+}
+
+.navbar-mobile .button1:hover {
+  background-color: #424ECC;
+  color: white;
+  transform: scale(1.05);
+}
+
+/* HERO */
+.hero{
+  width: auto;
+  height: auto;
+}
+.hero .hero-left{
+  display: none;
+}
+
+.hero .hero-right{
+  display: none;
+}
+
+.hero .hero-right-mobile, .hero .hero-left-mobile{
+
+  width: auto;
+  height: 100vh;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 32px;
+ 
+}  
+
+.hero .hero-right-mobile{
+  display: block;
+  width: initial;
+  height: 50%;
+  position: initial;
+  transform: initial;
+  text-align: center;
+ 
+ 
+
+
+}
+
+.hero .hero-right-mobile img{
+
+ 
+  width: 60%;
+  position: initial;
+  transform: initial;
+
+}
+
+.hero .hero-left-mobile{
+
+  display: block;
+  width: initial;
+  height: 50%;
+  position: initial;
+  transform: initial;
+  float: none;
+}
+
+.hero .hero-left-mobile .info{
+  
+  width: initial;
+  position: initial;
+  transform: initial;
+  float: none;
+  padding-left: 0;
+  padding-right: 0;
+
+}
+
+.hero .hero-left-mobile .info .Name{
+  color: #ffffff;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 45px;
+  line-height: 73px;
+  margin-top: -45px;
+  }
+  
+  .hero .hero-left-mobile .info .Last-Name{
+  color: #141415;
+  margin-top: -15px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 45px;
+  line-height: 73px;  
+  }
+  
+  .hero .hero-left-mobile .info .Desc{
+  color: #141415;
+  margin-top: 5px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 46px;  
+  }
+  
+  
+  .hero .hero-left-mobile .info .button2{
+  
+   color: #424ECC;
+   margin-bottom: 64px;
+   font-family: Montserrat;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 20px;
+   display: inline-block;
+   border-radius: 5px;
+   background-color: #FFFFFF;
+   border: none;
+   padding: 14px;
+   width: 200px;
+   transition: all 0.5s;
+   cursor: pointer;
+  
+  }
+  
+  
+  .hero .hero-left-mobile .info .button2:hover {
+  
+    color: #424ECC;
+   transform: scale(1.05);
+
+  }
+  
+/* ABOUT */
+
+.about .title {
+ 
+  font-size: 45px;
+  padding-top: 32px;
+}
+
+.about .sub_titile {
+ 
+  font-size: 25px;
+  padding-top: 18px;
+ 
+}
+
+.about .description1 {
+
+  font-size: 18px;
+  padding-top: 9px;
+
+}
+
+.about .description2 {
+
+  font-size: 18px;
+  padding-top: 18px;
+  padding-bottom: 32px;
+}
+
+.about .button3 {
+  font-size: 20px;
+  /* line-height: 10px; */
+  padding: 14px;
+  width: 200px;
+  margin-bottom: 64px;
+}
+
+.process .title2 {
+  font-size: 45px;
+  padding-top: 32px;
+  line-height: 60px;
+}
+
+.process .sub_titile2 {
+ 
+  font-size: 25px;
+  padding-top: 18px;
+ 
+}
+
+.process .intro {
+
+  font-size: 18px;
+  padding-top: 18px;
+  padding-bottom: 32px;
+}
+
+.process .button4 {
+
+   font-size: 20px;
+   padding: 14px;
+   width: 200px;
+   margin-bottom: 0px;
+}
+
+/* BOXES */
+  .boxes .all {
+    
+    visibility: visible;
+    display: initial;
+    position:initial;
+    float: none;
+
+  }
+
+  .boxes .all .card1, .boxes .all .card2, .boxes .all .card3, .boxes .all .card4,  .boxes .all .card5,  .boxes .all .card6{
+
+    width: initial;
+    margin-left: 20px;
+    margin-right: 20px; 
+    margin-bottom: 32px;
+    font-size: 18px;
+
+  }
+
+  .boxes .all .card1 .text, .boxes .all .card2 .text, .boxes .all .card3 .text, .boxes .all .card4 .text, .boxes .all .card5 .text, .boxes .all .card6 .text{
+
+    font-size: 28px;
+
+  }
+
+/* WORK */
+
+ .work .title-work{
+
+  padding:32px 20px 18px 20px;
+  font-size: 40px;
+ }
+
+.project-left, .project-right{
+
+  height: initial;
+  margin-bottom: 64px;
+}
+
+.project-left .img-box{
+
+  display: none;
+
+}
+.project-left .img-box-mobile{
+  
+  display: block;
+
+}
+
+.project-left .img-box-mobile img {
+
+  width: 100%;
+  height: auto;
+
+}
+
+.project-right .img-box{
+
+  display: none;
+}
+
+.project-right .img-box-mobile {
+
+  display: block;
+
+}
+
+.project-right .img-box-mobile img {
+
+  width: 100%;
+  height: auto;
+ 
+}
+
+
+.project-left .content-box{
+  
+  width: initial;
+  float: none;
+  position: initial;
+  transform: initial;
+  margin-top: 32px;
+
+}
+
+.project-right .content-box{
+
+  width: initial;
+  float: none;
+  position: initial;
+  transform: initial;
+  margin-top: 18px;
+
+}
+
+.project-left .content-box .project-tags, .project-right .content-box .project-tags {
+
+  font-size: 16px;
+  line-height: 32px;
+  padding-left:18px;
+  padding-right: 18px;
+
+}
+
+.project-left .content-box .project-title, .project-right .content-box .project-title {
+  
+  font-size: 26px;
+  padding-left: 18px;
+  padding-right: 18px;
+
+}
+
+.project-left .content-box .description3, .project-right .content-box .description3 {
+
+  font-size: 18px;
+  padding-left: 18px;
+  padding-right: 18px;
+
+}
+
+.project-left .content-box .button5, .project-right .content-box .button5 {
+ 
+  font-size: 20px;
+  padding: 14px;
+  width: 200px;
+  margin-left: 18px;
+
+
+}
+
+/* ADDITIONAL WORK */
+
+
+.additional-work .title-work{
+
+  padding: 32px 20px 18px 20px;
+  font-size: 40px;
+}
+
+.additional-boxes{
+
+  width: 100%;
+  height: auto;
+  padding-bottom: 64px;
+  font-size: 0px;
+ 
+}
+
+.additional-boxes .logo-box, .additional-boxes .photoshop-box {
+
+  display: none;
+
+}
+ 
+ .additional-boxes .logo-box-mobile {
+
+   display:block;
+   margin-left:20px;
+   margin-right:20px;
+   padding: 0px;
+   position: relative;
+   margin-bottom: 32px;
+   background-color: black;
+
+}
+
+.additional-boxes .photoshop-box-mobile {
+
+  display:block;
+  margin-left:20px;
+   margin-right:20px;
+   padding: 0px;
+  position: relative;
+  background-color: black;
+  
+
+}
+
+
+.additional-boxes  .logo-box-mobile img, .additional-boxes .photoshop-box-mobile img{
+
+  width: 100%;
+  opacity: 0.3;
+  background-repeat: no-repeat;
+  background-size: contain;
+ 
+ }
+
+.additional-boxes .logo-box-mobile .text, .additional-boxes .photoshop-box-mobile .text{
+  
+  font-size: 28px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.footer .info {
+
+  padding-top: 64px;
+}
+
+.footer .info .title{
+
+color: #424ECC;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 800;
+font-size: 40px;
+line-height: 60px;
+padding-left: 20px;
+padding-right: 20px;
+
+}
+
+.footer .info .Desc{
+
+  margin: 0 40px 64px 40px;
+  font-size: 20px;
+
+}
+.footer .info .button2 {
+
+  width: 260px;
+  font-size: 20px;
+  padding: 14px;
+
+}
+
+.footer .info .Desc-time {
+
+  font-size: 16px;
+  line-height: 0;
+}
+
+.footer .info .social i{
+
+  font-size: 28px;
+  padding: 0 18px;
+}
+.footer .info .copyright{
+
+  margin-top: 18px;
+  margin-bottom: 9px;
+  font-size: 14px;
+}
+
+}
+
+
+
+
+
+
+
+
+
