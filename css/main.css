@@ -1636,27 +1636,7 @@ text-align: center;
     margin-bottom: 0px;
   }
 
-  
-  /* BOXES */
-    /* .boxes .all {
-      
-      visibility: visible;
-      display: initial;
-      position:initial;
-      float: none;
-  
-    }
-  
-    .boxes .all .card1, .boxes .all .card2, .boxes .all .card3, .boxes .all .card4,  .boxes .all .card5,  .boxes .all .card6{
-  
-      width: initial;
-      margin-left: 20px;
-      margin-right: 20px; 
-      margin-bottom: 32px;
-      font-size: 18px;
-  
-    }*/
-  
+   
     .boxes .all .card1 .text, .boxes .all .card2 .text, .boxes .all .card3 .text, .boxes .all .card4 .text, .boxes .all .card5 .text, .boxes .all .card6 .text{
   
       font-size: 28px;
@@ -1857,7 +1837,7 @@ text-align: center;
 
   .additional-boxes{
   
-    width: 80%;
+    width: 100%;
     height: auto;
     padding-bottom: 64px;
     font-size: 0px;
@@ -1874,9 +1854,9 @@ text-align: center;
   
      display:block;
      margin-left:20px;
+     margin-right:20px;
      position: relative;
      margin-bottom: 32px;
-     padding-right: 20px;
      background-color: black;
   
   }
@@ -1884,11 +1864,11 @@ text-align: center;
   .additional-boxes .photoshop-box-mobile {
   
     display:block;
+    margin-left:20px;
     margin-right:20px;
-    padding-left: 20px;
     position: relative;
     background-color: black;
-    
+    margin-bottom: 0px;
   
   }
   
