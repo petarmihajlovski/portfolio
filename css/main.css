@@ -484,16 +484,16 @@ padding-right: 20px;
 
 .boxes .all .card1{
 
-  width: 24%;
+  width: 25%;
   background: #fff;
   text-align: center;
   border-radius: 5px;
-  padding: 40px 40px;
+  padding: 20px 20px;
   cursor: text;
   transition: all 0.3s ease;
-  margin-bottom: 60px;
+  margin-bottom: 80px;
   float: left;
-  margin-right: 60px;
+  margin-right: 100px;
 }
 
 
@@ -505,7 +505,7 @@ padding-right: 20px;
 .boxes .all .card1 .box svg{
 
   display: inline;
-  width: 150px;
+  width: 130px;
   height: auto;
   fill: #424ECC;
   transition: color 0.3s ease;
@@ -515,7 +515,7 @@ padding-right: 20px;
   .boxes .all .card1:hover .box svg {
     
     display: inline;
-    width: 150px;
+    width: 130px;
     height: auto;
     fill: #ffffff;
         
@@ -548,7 +548,7 @@ padding-right: 20px;
   margin: 0;
   padding-bottom:20px;
   line-height: 32px;
-
+  font-size: 20px;
 }
 
 .boxes .all .card1 .box{
@@ -565,16 +565,15 @@ padding-right: 20px;
 
 .boxes .all .card2{
 
-  width: 24%;
+  width: 25%;
   background: #fff;
   text-align: center;
   border-radius: 5px;
-  padding: 40px 40px;
+  padding: 20px 20px;
   cursor: text;
   transition: all 0.3s ease;
-  margin-bottom: 60px;
+  margin-bottom: 100px;
   float: left;
-
 }
 
 
@@ -586,7 +585,7 @@ padding-right: 20px;
 .boxes .all .card2 .box svg{
 
   display: inline;
-  width: 150px;
+  width: 130px;
   height: auto;
   fill: #424ECC;
   transition: color 0.3s ease;
@@ -596,7 +595,7 @@ padding-right: 20px;
   .boxes .all .card2:hover .box svg {
     
     display: inline;
-    width: 150px;
+    width: 130px;
     height: auto;
     fill: #ffffff;
         
@@ -629,7 +628,7 @@ padding-right: 20px;
   margin: 0;
   padding-bottom:20px;
   line-height: 32px;
-
+  font-size: 20px;
 }
 
 .boxes .all .card2 .box{
@@ -645,16 +644,16 @@ padding-right: 20px;
 
 .boxes .all .card3{
 
-  width: 24%;
+  width: 25%;
   background: #fff;
   text-align: center;
   border-radius: 5px;
-  padding: 40px 40px;
+  padding: 20px 20px;
   cursor: text;
   transition: all 0.3s ease;
-  margin-bottom: 60px;
-  float: right;
-  margin-left: 60px;
+  margin-bottom: 100px;
+  float: left;
+  margin-left: 100px;
 
 }
 
@@ -667,7 +666,7 @@ padding-right: 20px;
 .boxes .all .card3 .box svg{
 
   display: inline;
-  width: 150px;
+  width: 130px;
   height: auto;
   fill: #424ECC;
   transition: color 0.3s ease;
@@ -677,7 +676,7 @@ padding-right: 20px;
   .boxes .all .card3:hover .box svg {
     
     display: inline;
-    width: 150px;
+    width: 130px;
     height: auto;
     fill: #ffffff;
         
@@ -710,6 +709,7 @@ padding-right: 20px;
   margin: 0;
   padding-bottom:20px;
   line-height: 32px;
+  font-size: 20px;
 
 }
 
@@ -731,16 +731,16 @@ padding-right: 20px;
 
 .boxes .all .card4{
 
-  width: 24%;
+  width: 25%;
   background: #fff;
   text-align: center;
   border-radius: 5px;
-  padding: 40px 40px;
+  padding: 20px 20px;
   cursor: text;
   transition: all 0.3s ease;
-  margin-bottom: 60px;
+  margin-bottom: 100px;
   float: left;
-  margin-right: 60px;
+  margin-right: 100px;
 }
 
 
@@ -752,7 +752,7 @@ padding-right: 20px;
 .boxes .all .card4 .box svg{
 
   display: inline;
-  width: 150px;
+  width: 130px;
   height: auto;
   fill: #424ECC;
   transition: color 0.3s ease;
@@ -762,7 +762,7 @@ padding-right: 20px;
   .boxes .all .card4:hover .box svg {
     
     display: inline;
-    width: 150px;
+    width: 130px;
     height: auto;
     fill: #ffffff;
         
@@ -795,7 +795,7 @@ padding-right: 20px;
   margin: 0;
   padding-bottom:20px;
   line-height: 32px;
-
+  font-size: 20px;
 }
 
 .boxes .all .card4 .box{
@@ -811,15 +811,15 @@ padding-right: 20px;
 
 .boxes .all .card5{
 
-    width: 24%;
-    background: #fff;
-    text-align: center;
-    border-radius: 5px;
-    padding: 40px 40px;
-    cursor: text;
-    transition: all 0.3s ease;
-    margin-bottom: 60px;
-    float: left;
+  width: 25%;
+  background: #fff;
+  text-align: center;
+  border-radius: 5px;
+  padding: 20px 20px;
+  cursor: text;
+  transition: all 0.3s ease;
+  margin-bottom: 100px;
+  float: left;
 
 }
 
@@ -832,7 +832,7 @@ padding-right: 20px;
 .boxes .all .card5 .box svg{
 
   display: inline;
-  width: 150px;
+  width: 130px;
   height: auto;
   fill: #424ECC;
   transition: color 0.3s ease;
@@ -842,7 +842,7 @@ padding-right: 20px;
   .boxes .all .card5:hover .box svg {
     
     display: inline;
-    width: 150px;
+    width: 130px;
     height: auto;
     fill: #ffffff;
         
@@ -875,7 +875,7 @@ padding-right: 20px;
   margin: 0;
   padding-bottom:20px;
   line-height: 32px;
-
+  font-size: 20px;
 }
 
 .boxes .all .card5 .box{
@@ -890,17 +890,16 @@ padding-right: 20px;
 }
 
 .boxes .all .card6{
-
-    width: 24%;
-    background: #fff;
-    text-align: center;
-    border-radius: 5px;
-    padding: 40px 40px;
-    cursor: text;
-    transition: all 0.3s ease;
-    margin-bottom: 60px;
-    float: right;
-    margin-left: 60px;
+  width: 25%;
+  background: #fff;
+  text-align: center;
+  border-radius: 5px;
+  padding: 20px 20px;
+  cursor: text;
+  transition: all 0.3s ease;
+  margin-bottom: 100px;
+  float: left;
+  margin-left: 100px;
 }
 
 
@@ -912,7 +911,7 @@ padding-right: 20px;
 .boxes .all .card6 .box svg{
 
   display: inline;
-  width: 150px;
+  width: 130px;
   height: auto;
   fill: #424ECC;
   transition: color 0.3s ease;
@@ -922,7 +921,7 @@ padding-right: 20px;
   .boxes .all .card6:hover .box svg {
     
     display: inline;
-    width: 150px;
+    width: 130px;
     height: auto;
     fill: #ffffff;
         
@@ -955,7 +954,7 @@ padding-right: 20px;
   margin: 0;
   padding-bottom:20px;
   line-height: 32px;
-
+  font-size: 20px;
 }
 
 .boxes .all .card6 .box{
