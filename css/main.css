@@ -2061,10 +2061,7 @@ text-align: center;
 }
 
 /* HERO */
-.hero{
-  width: auto;
-  height: auto;
-}
+
 .hero .hero-left{
   display: none;
 }
@@ -2073,70 +2070,87 @@ text-align: center;
   display: none;
 }
 
-.hero .hero-right-mobile, .hero .hero-left-mobile{
 
-  width: auto;
+.hero{
+
+  width: 100%;
+  height: calc(100vh - 75px);
+  margin-bottom: 20px;
+
+
+  }
+
+.hero .mobile{
+
+  width: 100%;
   height: 100vh;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 32px;
- 
-}  
+  text-align: left;
+  
+}
 
-.hero .hero-right-mobile{
-  display: block;
-  width: initial;
-  height: 50%;
-  position: initial;
-  transform: initial;
-  text-align: center;
- 
- 
+.hero .mobile, .hero .mobile .hero-right-mobile, .hero .mobile .hero-left-mobile{
 
+  width: 100%;
+  height: auto;
 
 }
 
-.hero .hero-right-mobile img{
+.hero .mobile .hero-right-mobile{
+
+  display: block;
+  width: initial;
+  height: initial;
+  text-align: center;
+
+ 
+}
+
+.hero .mobile .hero-right-mobile img{
 
  
   width: 60%;
-  position: initial;
-  transform: initial;
 
 }
 
-.hero .hero-left-mobile{
 
+.hero .mobile .hero-left-mobile{
+
+  width: 100%;
+  height: auto;
+
+ 
+}
+
+
+
+.hero .mobile .hero-left-mobile .info{
+  
+  padding: 0px;
   display: block;
   width: initial;
-  height: 50%;
+  height: initial;
   position: initial;
   transform: initial;
-  float: none;
-}
+  text-align: left;
+  margin-left: 20px;
+  margin-right: 20px;
+  /* margin-bottom: 20px; */
 
-.hero .hero-left-mobile .info{
-  
-  width: initial;
-  position: initial;
-  transform: initial;
-  float: none;
-  padding-left: 0;
-  padding-right: 0;
+
 
 }
 
-.hero .hero-left-mobile .info .Name{
+.hero .mobile .hero-left-mobile .info .Name{
   color: #ffffff;
   font-family: Montserrat;
   font-style: normal;
   font-weight: 800;
   font-size: 45px;
   line-height: 73px;
-  margin-top: -45px;
+  /* margin-top: -45px; */
   }
   
-  .hero .hero-left-mobile .info .Last-Name{
+  .hero .mobile .hero-left-mobile .info .Last-Name{
   color: #141415;
   margin-top: -15px;
   font-family: Montserrat;
@@ -2146,7 +2160,7 @@ text-align: center;
   line-height: 73px;  
   }
   
-  .hero .hero-left-mobile .info .Desc{
+  .hero .mobile .hero-left-mobile .info .Desc{
   color: #141415;
   margin-top: 5px;
   font-family: Montserrat;
@@ -2157,10 +2171,10 @@ text-align: center;
   }
   
   
-  .hero .hero-left-mobile .info .button2{
+  .hero .mobile .hero-left-mobile .info .button2{
   
    color: #424ECC;
-   margin-bottom: 64px;
+   margin-bottom: 0px;
    font-family: Montserrat;
    font-style: normal;
    font-weight: 500;
@@ -2178,7 +2192,7 @@ text-align: center;
   }
   
   
-  .hero .hero-left-mobile .info .button2:hover {
+  .hero .mobile .hero-left-mobile .info .button2:hover {
   
     color: #424ECC;
    transform: scale(1.05);

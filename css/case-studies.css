@@ -207,10 +207,10 @@ body {
      
     background-image: url(../img/Hero-Cover.jpg);
     background-size: cover;
-   background-position: 20%;
-   width: 100%;
-   height: 89vh;
-   margin-bottom: 90px;
+    background-position: 20%;
+    width: 100%;
+    height: calc(100vh - 110px);
+    margin-bottom: 90px;
      
   }
   
@@ -218,7 +218,7 @@ body {
   .hero .hero-center{
    
   width: 50%;
-  height: 768px;
+  height: calc(100vh - 110px);
   text-align: left;
   position: relative;
   
@@ -238,7 +238,7 @@ body {
   font-family: Montserrat;
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 24px;
   line-height: 73px;
   }
   
@@ -256,12 +256,10 @@ body {
   .hero .hero-center .info .description1{
   
     text-align: left;
-    padding: 26px;
-    background-color:#ffffff46;
-    color: #151414;
+    color: #FFFFFF;
     font-family: Open Sans;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 300;
     font-size: 22px;
     line-height: 30px;
 
@@ -2300,15 +2298,20 @@ padding-right: 20px;
   
   
 /*///////////////// HERO //////////////////// 1300px */
-    
-     
+ 
   
 .hero {
   
-  width: auto;
+  width: initial;
   height: auto;
   margin-bottom: 64px;
 }
+
+.hero .hero-center{
+
+  width: 67%;
+}
+
 
 .hero .hero-center .info {
 
@@ -3531,24 +3534,59 @@ background-color: #000;
   
 .hero {
   
-  width: auto;
-  height: auto;
+  width: initial;
+  height: calc(100vh - 75px);
   margin-bottom: 45px;
+
 }
 
 .hero .hero-center{
 
-  width: initial;
+  width: 100%;
+  height: calc(100vh - 75px);
+  text-align: left;
  
-}
+ }
 
 .hero .hero-center .info {
 
   width: initial;
+  height: initial;
   margin-right: 20px;
-  
+  top: 50%;
+  transform: translateY(-50%);
 
 }
+
+.hero .hero-center .info .tags{
+
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 46px;
+
+}
+
+.hero .hero-center .info .Title{
+
+  color: #141415;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 45px;
+  line-height: 60px;
+
+}
+
+.hero .hero-center .info .description1{
+
+  font-weight: 300;
+  font-size: 20px;
+
+}
+
 
 
 /*/////////////////// Strategy ////////////////////////*/
