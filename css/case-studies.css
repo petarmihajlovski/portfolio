@@ -62,7 +62,7 @@ body {
     font-size: 20px;
     margin-right: 10px;
     color: #424ECC;
-    transition: color 0.3s ease;
+    transition: color 0.45s ease;
   }
   .dropdown .dropbtn:hover i{
     color: #ffffff;
@@ -135,7 +135,7 @@ body {
       font-weight: 600;
       color: #141415;
       text-decoration: none;
-      transition: 0.3s all;
+      transition: 0.45s all;
   
     
     }
@@ -506,7 +506,7 @@ padding-right: 20px;
   
     width: 100%;
     height: auto;
-    transition: color 0.3s ease;
+    transition: color 0.45s ease;
     background-repeat: no-repeat;
     background-size: contain; 
     border-radius: 5px;
@@ -534,7 +534,7 @@ padding-right: 20px;
   
     width: 100%;
     height: auto;
-    transition: color 0.3s ease;
+    transition: color 0.45s ease;
     background-repeat: no-repeat;
     background-size: contain; 
     border-radius: 5px;
@@ -586,7 +586,7 @@ padding-right: 20px;
 
   width: 100%;
   height: auto; 
-  transition: color 0.3s ease;
+  transition: color 0.45s ease;
   background-repeat: no-repeat;
   background-size: contain; 
   border-radius: 5px;
@@ -619,7 +619,7 @@ padding-right: 20px;
 
   width: 100%;
   height: auto;
-  transition: color 0.3s ease;
+  transition: color 0.45s ease;
   background-repeat: no-repeat;
   background-size: contain; 
   border-radius: 5px;
@@ -940,7 +940,7 @@ padding-right: 20px;
       
         width: 100%;
         height: auto;
-        transition: color 0.3s ease;
+        transition: color 0.45s ease;
         background-repeat: no-repeat;
         background-size: contain; 
         border-radius: 5px;
@@ -975,7 +975,7 @@ padding-right: 20px;
       
         width: 100%;
         height: auto;
-        transition: color 0.3s ease;
+        transition: color 0.45s ease;
         background-repeat: no-repeat;
         background-size: contain; 
         border-radius: 5px;
@@ -1007,7 +1007,7 @@ padding-right: 20px;
       
         width: 100%;
         height: auto;
-        transition: color 0.3s ease;
+        transition: color 0.45s ease;
         background-repeat: no-repeat;
         background-size: contain; 
         border-radius: 5px;
@@ -1038,7 +1038,7 @@ padding-right: 20px;
       
         width: 100%;
         height: auto;
-        transition: color 0.3s ease;
+        transition: color 0.45s ease;
         background-repeat: no-repeat;
         background-size: contain; 
         border-radius: 5px;
@@ -1078,7 +1078,7 @@ padding-right: 20px;
       
         width: 100%;
         height: auto;
-        transition: color 0.3s ease;
+        transition: color 0.45s ease;
         background-repeat: no-repeat;
         background-size: contain; 
         border-radius: 5px;
@@ -1111,7 +1111,7 @@ padding-right: 20px;
       
         width: 100%;
         height: auto;
-        transition: color 0.3s ease;
+        transition: color 0.45s ease;
         background-repeat: no-repeat;
         background-size: contain; 
         border-radius: 5px;
@@ -1143,7 +1143,7 @@ padding-right: 20px;
       
         width: 100%;
         height: auto;
-        transition: color 0.3s ease;
+        transition: color 0.45s ease;
         background-repeat: no-repeat;
         background-size: contain; 
         border-radius: 5px;
@@ -1174,7 +1174,7 @@ padding-right: 20px;
       
         width: 100%;
         height: auto;
-        transition: color 0.3s ease;
+        transition: color 0.45s ease;
         background-repeat: no-repeat;
         background-size: contain; 
         border-radius: 5px;
@@ -1235,7 +1235,7 @@ padding-right: 20px;
   
     width: 100%;
     height: auto;
-    transition: color 0.3s ease;
+    transition: color 0.45s ease;
     background-repeat: no-repeat;
     background-size: contain; 
     border-radius: 5px;
@@ -1263,7 +1263,7 @@ padding-right: 20px;
   
     width: 100%;
     height: auto;
-    transition: color 0.3s ease;
+    transition: color 0.45s ease;
     background-repeat: no-repeat;
     background-size: contain; 
     border-radius: 5px;
@@ -1290,7 +1290,7 @@ padding-right: 20px;
   
     width: 100%;
     height: auto;
-    transition: color 0.3s ease;
+    transition: color 0.45s ease;
     background-repeat: no-repeat;
     background-size: contain; 
     border-radius: 5px;
@@ -1317,7 +1317,7 @@ padding-right: 20px;
   
     width: 100%;
     height: auto;
-    transition: color 0.3s ease;
+    transition: color 0.45s ease;
     background-repeat: no-repeat;
     background-size: contain; 
     border-radius: 5px;
@@ -1353,7 +1353,7 @@ padding-right: 20px;
   
     width: 100%;
     height: auto;
-    transition: color 0.3s ease;
+    transition: color 0.45s ease;
     background-repeat: no-repeat;
     background-size: contain; 
     border-radius: 5px;
@@ -1381,7 +1381,7 @@ padding-right: 20px;
   
     width: 100%;
     height: auto;
-    transition: color 0.3s ease;
+    transition: color 0.45s ease;
     background-repeat: no-repeat;
     background-size: contain; 
     border-radius: 5px;
@@ -1409,7 +1409,7 @@ padding-right: 20px;
   
     width: 100%;
     height: auto;
-    transition: color 0.3s ease;
+    transition: color 0.45s ease;
     background-repeat: no-repeat;
     background-size: contain; 
     border-radius: 5px;
@@ -1440,7 +1440,7 @@ padding-right: 20px;
   
     width: 100%;
     height: auto;
-    transition: color 0.3s ease;
+    transition: color 0.45s ease;
     background-repeat: no-repeat;
     background-size: contain; 
     border-radius: 5px;
@@ -1537,7 +1537,7 @@ padding-right: 20px;
   
     width: 100%;
     height: auto;
-    transition: color 0.3s ease;
+    transition: color 0.45s ease;
     background-repeat: no-repeat;
     background-size: contain; 
     border-radius: 5px;
@@ -1570,7 +1570,7 @@ padding-right: 20px;
   
     width: 100%;
     height: auto;
-    transition: color 0.3s ease;
+    transition: color 0.45s ease;
     background-repeat: no-repeat;
     background-size: contain; 
     border-radius: 5px;
@@ -1603,7 +1603,7 @@ padding-right: 20px;
   
     width: 100%;
     height: auto;
-    transition: color 0.3s ease;
+    transition: color 0.45s ease;
     background-repeat: no-repeat;
     background-size: contain; 
     border-radius: 5px;
@@ -1627,7 +1627,7 @@ padding-right: 20px;
   
     width: 100%;
     height: auto;
-    transition: color 0.3s ease;
+    transition: color 0.45s ease;
     background-repeat: no-repeat;
     background-size: contain; 
     border-radius: 5px;
@@ -1656,7 +1656,7 @@ padding-right: 20px;
   
     width: 100%;
     height: auto;
-    transition: color 0.3s ease;
+    transition: color 0.45s ease;
     background-repeat: no-repeat;
     background-size: contain; 
     border-radius: 5px;
@@ -1683,7 +1683,7 @@ padding-right: 20px;
   
     width: 100%;
     height: auto;
-    transition: color 0.3s ease;
+    transition: color 0.45s ease;
     background-repeat: no-repeat;
     background-size: contain; 
     border-radius: 5px;
@@ -1775,7 +1775,7 @@ padding-right: 20px;
 
   width: 100%;
   height: auto;
-  transition: color 0.3s ease;
+  transition: color 0.45s ease;
   background-repeat: no-repeat;
   background-size: contain; 
   border-radius: 5px;
@@ -1810,7 +1810,7 @@ padding-right: 20px;
 
   width: 100%;
   height: auto;
-  transition: color 0.3s ease;
+  transition: color 0.45s ease;
   background-repeat: no-repeat;
   background-size: contain; 
   border-radius: 5px;
@@ -3456,6 +3456,7 @@ background-color: #000;
   
   
   .navbar-mobile .sidenav {
+          
     height: 100%;
     width: 0;
     position: fixed;
@@ -3465,22 +3466,34 @@ background-color: #000;
     background-color: #141414;
     overflow-x: hidden;
     transition: 0.5s;
-    padding-top: 32px;
+    padding-top: 60px;
     text-align: center;
-  
+
+
+    /* margin: 0; */
+    /* position: absolute; */
+    /* top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
+
+ 
   }
   
   .navbar-mobile .sidenav a {
-    padding: 15px 8px 15px 8px;
+    padding: 8px 8px 0px 8px;
     text-decoration: none;
     font-size: 20px;
     color: #ffffff;
     display: block;
-    transition: 0.3s;
+    transition: 0.45s;
     text-align: center; 
+    margin-top: 15px;
+   
   
   }
-  
+
+   
   .navbar-mobile .sidenav a:hover {
     color: #424ECC;
   
@@ -3490,17 +3503,11 @@ background-color: #000;
     position: absolute;
     top: 0;
     right: 15px;
-    font-size: 80px;
-    margin-left: 50px;
+    font-size: 60px;
+    margin-top: 0px;
+    padding: 0px;
   }
   
-  
-  /* II part  */
-  
-  .navbar-mobile .sidenav {
-    padding-top: 160px;
-  
-  }
   
   
   /* BUTTON MENU */
@@ -3512,13 +3519,13 @@ background-color: #000;
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
-    font-size: 20px; 
+    font-size: 18px; 
     line-height:50px;
     display: inline-block;
     border-radius: 5px;
     background-color: #424ECC;
     border: none;
-    margin-top: 32px;  
+    margin-top: 10px;  
     width: 200px;
     transition: all 0.5s;
     cursor: pointer;
@@ -3532,6 +3539,9 @@ background-color: #000;
     transform: scale(1.05);
   }
   
+
+/* HERO */
+
 .hero {
   
   width: initial;
