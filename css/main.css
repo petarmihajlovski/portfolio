@@ -1022,7 +1022,7 @@ padding-right: 20px;
   float: left;
   width: 600px;
   height: 495px;
-
+  border-radius: 5px;
 
 }
 
@@ -1031,11 +1031,13 @@ padding-right: 20px;
 
   width: 600px;
   height: 495px;
+  /* border-radius: 5px; */
 }
 
 .project-left .img-box img, .project-right .img-box img{
   
   width:100%;
+  border-radius: 5px;
  
 }
 
@@ -1179,7 +1181,7 @@ padding-right: 20px;
   font-style: normal;
   font-weight: 600;
   font-size: 30px;
-
+  
 }
 
 
@@ -1196,6 +1198,7 @@ padding-right: 20px;
   position: relative;
   text-align: center;
   background-color: #000;
+  border-radius: 5px;
 
 }
 
@@ -1231,6 +1234,7 @@ padding-right: 20px;
   transition: opacity 0.45s ease;
   background-repeat: no-repeat;
   background-size: contain; 
+  border-radius: 5px;
 
  }
 
@@ -1255,6 +1259,7 @@ padding-right: 20px;
   position: relative;
   text-align: center;
   background-color: #000;
+  border-radius: 5px;
 
 }
 
@@ -1290,7 +1295,8 @@ padding-right: 20px;
   transition: opacity 0.45s ease;
   background-repeat: no-repeat;
   background-size: contain; 
-
+  border-radius: 5px;
+  
  }
 
  .additional-boxes .photoshop-box img:hover {

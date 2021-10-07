@@ -161,6 +161,34 @@ body {
     } 
   
   
+    .navbar ul .button4{
+  
+  
+      color: #ffffff;
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 20px; 
+      line-height:40px;
+      display: inline-block;
+      border-radius: 5px;
+      background-color: #424ECC;
+      border: none;
+      /* margin-top: 10px;  */
+      margin-right: 20px; 
+      width: 250px;
+      transition: all 0.5s;
+      cursor: pointer;
+      
+    
+    }
+    
+    .navbar ul .button4:hover {
+      background-color: #424ECC;
+      color: white;
+      transform: scale(1.05);
+    }
+
   
   .navbar ul .button1{
   
@@ -190,6 +218,7 @@ body {
     transform: scale(1.05);
   }
   
+
   .clear{
     clear: both;
   }
@@ -265,80 +294,8 @@ body {
 
   }
 
-   
-  /* LOGO DESIGN PROCESS */
   
-  .design-process{
-  
-    font-family: 'Montserat', monospace ;  
-    background-color: #ffffff;
-
-  
-  }
-  
-  .design-process .title{
-    color: #424ECC;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 60px;
-    line-height: 73px;
-    margin-top: 0px;
-    padding-top: 90px;
-    padding-left: 20px;
-    padding-right: 20px;
-  
-    }
-    
-    .design-process .sub_titile{
-      
-      text-align: left;
-      color: #141415;
-      font-family: Montserrat;
-      font-style: normal;
-      font-weight: 700;
-      font-size: 36px;
-      line-height: 73px;
-      padding-top: 32px;
-      padding-left: 20px;
-      padding-right: 20px;
-  
-  
-      }
-      
-      
-    .design-process .description1{
-  
-      text-align: left;
-      color: #141415;
-      font-family: Open Sans;
-      font-style: normal;
-      font-weight: 500;
-      font-size: 22px;
-      line-height: 30px;
-      padding-top: 16px;
-      padding-left: 20px;
-      padding-right: 20px;
-  
-    }
-  
-    .design-process .description2{
-  
-      text-align: left;
-      padding-top: 16px;
-      padding-bottom: 90px;
-      color: #141415;
-      font-family: Open Sans;
-      font-style: normal;
-      font-weight: 500;
-      font-size: 22px;
-      line-height: 30px;
-      padding-left: 20px;
-      padding-right: 20px;
-
-      }
-   
-/* LOGO DESIGN CONCEPT */
+/*  /////////// PHOTOSHOP INTRO/////// */
 
 .process{
 
@@ -409,7 +366,7 @@ body {
     font-size: 22px;
     line-height: 30px;
     padding-top: 16px;
-    padding-bottom: 45px;
+    /* padding-bottom: 45px; */
     padding-left: 20px;
     padding-right: 20px;
 
@@ -426,325 +383,17 @@ body {
     font-size: 22px;
     line-height: 30px;
     padding-top: 16px;
-    padding-bottom: 45px;
+    padding-bottom: 90px;
     padding-left: 20px;
     padding-right: 20px;
 
 
   }
 
-.process .button4{
-
-    color: #ffffff;
-    margin-bottom: 90px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 25px;
-    line-height: 20px;
-    display: inline-block;
-    border-radius: 5px;
-    background-color: #424ECC;
-    border: none;
-    text-align: center;
-    font-size: 25x;
-    padding: 20px;
-    width: 300px;
-    transition: all 0.5s;
-    cursor: pointer;
-    margin-left: 20px;
-
-  }
-  
-  
-.process .button4:hover {
-
-  color: white;
-  transform: scale(1.05);
-
-} 
-
-
-
-/* CONCEPT ICON BOXES */
-
-.boxes-icon {
-
- width: 100%;
- height: auto;
- padding-top: 32px;
- padding-bottom: 32px;
- font-family: Open Sans;
- font-style: normal;
- font-weight: 500;
- font-size: 22px;
- background: #ECEDF9;
-
  
-}
+/*/////////// PHOTOSHOP WORK ////////// */
 
-
-.boxes-icon .all{
-
-  width: 100%;
-  margin-left: 20px;
-}
-
-.boxes-icon .all .card1{
-
-  width: 26.7%;
-    background: #fff;
-    text-align: center;
-    border-radius: 5px;
-    padding: 20px 20px;
-    cursor: text;
-    transition: all 0.45s ease;
-    float: left;
-    margin-right: 45px;
-
-}
-
-
-.boxes-icon .all .card1:hover{
-  background: #424ECC;
- 
-}
-
-.boxes-icon .all .card1 .box svg{
-
-  display: inline;
-  width: 130px;
-  height: auto;
-  fill: #424ECC;
-  transition: color 0.45s ease;
-  
-}
-  
-  .boxes-icon .all .card1:hover .box svg {
-    
-    display: inline;
-    width: 130px;
-    height: auto;
-    fill: #ffffff;
-        
-  }
-
-
-.boxes-icon .all .card1 .text{
-  font-size: 25px;
-  font-weight: 500;
-  padding-bottom: 20px;
-  color:#000;
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 28px;
-  line-height: 45px;
-
-}
-
-
-.boxes-icon .all .card1:hover .text{
-  transform: scale(1.05);
-  color: #FFFFFF;
-
-}
-
-.boxes-icon .all .card1 p{
- 
-
-  margin: 0;
-  padding-bottom:20px;
-  line-height: 32px;
-  font-size: 20px;
-
-}
-
-.boxes-icon .all .card1 .box{
-  transition: all 0.45s ease;
-
-}
-
-.boxes-icon .all .card1:hover .box{
-  transform: scale(1.05);
-  color: #FFFFFF;
-
-}
-
-.boxes-icon .all .card2{
-
-  width: 26.7%;
-    background: #fff;
-    text-align: center;
-    border-radius: 5px;
-    padding: 20px 20px;
-    cursor: text;
-    transition: all 0.45s ease;
-    float: left;
-    margin-right: 45px;
-
-}
-
-
-.boxes-icon .all .card2:hover{
-  background: #424ECC;
- 
-}
-
-.boxes-icon .all .card2 .box svg{
-
-  display: inline;
-  width: 130px;
-  height: auto;
-  fill: #424ECC;
-  transition: color 0.45s ease;
-  
-}
-  
-  .boxes-icon .all .card2:hover .box svg {
-    
-    display: inline;
-    width: 130px;
-    height: auto;
-    fill: #ffffff;
-        
-  }
-
-
-.boxes-icon .all .card2 .text{
-  font-size: 25px;
-  font-weight: 500;
-  padding-bottom: 20px;
-  color:#000;
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 28px;
-  line-height: 45px;
-
-}
-
-
-.boxes-icon .all .card2:hover .text{
-  transform: scale(1.05);
-  color: #FFFFFF;
-
-}
-
-.boxes-icon .all .card2 p{
- 
-
-  margin: 0;
-  padding-bottom:20px;
-  line-height: 32px;
-  font-size: 20px;
-
-}
-
-.boxes-icon .all .card2 .box{
-  transition: all 0.45s ease;
-
-}
-
-.boxes-icon .all .card2:hover .box{
-  transform: scale(1.05);
-  color: #FFFFFF;
-
-}
-
-
-
-.boxes-icon .all .card3{
-
-  width: 26.7%;
-    background: #fff;
-    text-align: center;
-    border-radius: 5px;
-    padding: 20px 20px;
-    cursor: text;
-    transition: all 0.45s ease;
-    float: left;
-    margin-right: 45px;
-
-}
-
-
-.boxes-icon .all .card3:hover{
-  background: #424ECC;
- 
-}
-
-.boxes-icon .all .card3 .box svg{
-
-  display: inline;
-  width: 130px;
-  height: auto;
-  fill: #424ECC;
-  transition: color 0.45s ease;
-  
-}
-  
-  .boxes-icon .all .card3:hover .box svg {
-    
-    display: inline;
-    width: 130px;
-    height: auto;
-    fill: #ffffff;
-        
-  }
-
-
-.boxes-icon .all .card3 .text{
-  font-size: 25px;
-  font-weight: 500;
-  padding-bottom: 20px;
-  color:#000;
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 28px;
-  line-height: 45px;
-
-}
-
-
-.boxes-icon .all .card3:hover .text{
-  transform: scale(1.05);
-  color: #FFFFFF;
-
-}
-
-.boxes-icon .all .card3 p{
- 
-
-  margin: 0;
-  padding-bottom:20px;
-  line-height: 32px;
-  font-size: 20px;
-
-}
-
-.boxes-icon .all .card3 .box{
-  transition: all 0.45s ease;
-
-}
-
-.boxes-icon .all .card3:hover .box{
-  transform: scale(1.05);
-  color: #FFFFFF;
-
-}
-
-
-.clear{
-  clear: both;
-}
-
-
- 
-/* Logo Design */
-
-  .logo-design{
+  .photoshop-work{
     font-family: 'Montserat', monospace ;  
     background-color:#ffffff;
     padding: 0px;
@@ -753,7 +402,7 @@ body {
   
   }
   
-  .logo-design .title{
+  .photoshop-work .title{
     color: #424ECC;
     font-family: Montserrat;
     font-style: normal;
@@ -766,7 +415,7 @@ body {
 
 /* boxes */
 
-.logo-slider-mobile{
+.photoshop-slider-mobile{
   display: none;
 }
 
@@ -791,7 +440,7 @@ body {
   display: none;
 }
 
-/* GRID */
+/* ///////////// GRID /////////// */
 
 .w3-modal-content {
   margin: auto;
@@ -804,16 +453,17 @@ body {
   background-repeat: no-repeat;
 }
 
+
 .w3-red, .w3-hover-red:hover {
   color: #fff!important;
   background-color: #424ECC!important;
 }
 
 
-.boxes .logo1-box {
+.boxes .photoshop1-box {
 
-  width: 30%;
-  height: 358px;
+  width: 63%;
+  height: auto;
   display: block;
   float: left;
   margin-left: 20px;
@@ -827,7 +477,7 @@ body {
 }
 
 
-.boxes .logo1-box .text i {
+.boxes .photoshop1-box .text i {
 
   position: absolute;
   top: 50%;
@@ -838,7 +488,7 @@ body {
    
 } 
 
- .boxes .logo1-box:hover .text i{
+ .boxes .photoshop1-box:hover .text i{
   
   
   font-style: bold;
@@ -851,7 +501,7 @@ body {
 
 }  
 
- .boxes .logo1-box img{
+ .boxes .photoshop1-box img{
 
   width: 100%;
   height: auto;
@@ -863,21 +513,20 @@ body {
 
  }
 
- .boxes .logo1-box img:hover {
+ .boxes .photoshop1-box img:hover {
 
   opacity: 0.15;
   
 } 
 
 
-.boxes .logo2-box {
+.boxes .photoshop2-box {
 
 
   width: 30%;
-  height: 358px;
+  height: auto;
   display: block;
   float: left;
-  margin-right: 40px;
   margin-bottom: 40px;
   position: relative;
   text-align: center;
@@ -887,7 +536,7 @@ body {
 }
 
 
-.boxes .logo2-box .text i{
+.boxes .photoshop2-box .text i{
 
   position: absolute;
   top: 50%;
@@ -899,7 +548,7 @@ body {
    
 } 
 
- .boxes .logo2-box:hover .text i{
+ .boxes .photoshop2-box:hover .text i{
   
   
   font-style: bold;
@@ -913,7 +562,7 @@ body {
 
 
 
- .boxes .logo2-box img{
+ .boxes .photoshop2-box img{
 
   width: 100%;
   height: auto;
@@ -925,17 +574,17 @@ body {
 
  }
 
- .boxes .logo2-box img:hover {
+ .boxes .photoshop2-box img:hover {
 
   opacity: 0.15;
   
-} 
+}  
 
 
-.boxes .logo3-box {
+.boxes .photoshop3-box {
 
   width: 30%;
-  height: 358px;
+  height: auto;
   display: block;
   float: left;
   margin-bottom: 40px;
@@ -948,7 +597,7 @@ body {
 }
 
 
-.boxes .logo3-box .text i{
+.boxes .photoshop3-box .text i{
 
   position: absolute;
   top: 50%;
@@ -960,7 +609,7 @@ body {
    
 } 
 
- .boxes .logo3-box:hover .text i{
+ .boxes .photoshop3-box:hover .text i{
   
   
   font-style: bold;
@@ -972,7 +621,7 @@ body {
 
 }  
 
- .boxes .logo3-box img{
+ .boxes .photoshop3-box img{
 
   width: 100%;
   height: auto;
@@ -984,54 +633,48 @@ body {
 
  }
 
- .boxes .logo3-box img:hover {
+ .boxes .photoshop3-box img:hover {
 
   opacity: 0.15;
   
 } 
 
 
- .boxes .logo1-box-mobile{
+ .boxes .photoshop1-box-mobile{
    
   display: none;
   
  }
 
- .boxes .logo2-box-mobile{
+ .boxes .photoshop2-box-mobile{
   
   display: none;
   
  }
  
- .boxes .logo3-box-mobile{
+ .boxes .photoshop3-box-mobile{
   
   display: none;
   
  }
   
-.clear{
-
-  clear: both;
-
-}
-
-.boxes .logo4-box {
+.boxes .photoshop4-box {
 
   width: 30%;
-  height: 358px;
+  height: auto;
   display: block;
   float: left;
   margin-left: 20px;
-  margin-right: 40px;
   margin-bottom: 40px;
   position: relative;
   text-align: center;
   background-color: #000;
   border-radius: 5px;
 
+
 }
 
-.boxes .logo4-box .text i {
+.boxes .photoshop4-box .text i {
 
   position: absolute;
   top: 50%;
@@ -1042,7 +685,7 @@ body {
    
 } 
 
- .boxes .logo4-box:hover .text i{
+ .boxes .photoshop4-box:hover .text i{
   
   font-style: bold;
   font-weight: 600;
@@ -1053,10 +696,10 @@ body {
 
 }  
 
- .boxes .logo4-box img{
+ .boxes .photoshop4-box img{
 
   width: 100%;
-  height: auto;
+  height: 358px;
   opacity: 0.9; 
   transition: opacity 0.45s ease;
   background-repeat: no-repeat;
@@ -1065,20 +708,21 @@ body {
 
  }
 
- .boxes .logo4-box img:hover {
+ .boxes .photoshop4-box img:hover {
 
   opacity: 0.15;
   
 } 
 
 
-.boxes .logo5-box {
+.boxes .photoshop5-box {
 
-  width: 30%;
-  height: 358px;
+
+  width: 63%;
+  height: 358x;
   display: block;
   float: left;
-  margin-right: 40px;
+  margin-left: 40px;
   margin-bottom: 40px;
   position: relative;
   text-align: center;
@@ -1088,7 +732,7 @@ body {
 }
 
 
-.boxes .logo5-box .text i{
+.boxes .photoshop5-box .text i{
 
   position: absolute;
   top: 50%;
@@ -1100,7 +744,7 @@ body {
    
 } 
 
- .boxes .logo5-box:hover .text i{
+ .boxes .photoshop5-box:hover .text i{
   
   
   font-style: bold;
@@ -1111,10 +755,10 @@ body {
 
 }  
 
- .boxes .logo5-box img{
+ .boxes .photoshop5-box img{
 
   width: 100%;
-  height: auto;
+  height: 358px;
   opacity: 0.9; 
   transition: opacity 0.45s ease;
   background-repeat: no-repeat;
@@ -1123,107 +767,20 @@ body {
 
  }
 
- .boxes .logo5-box img:hover {
+ .boxes .photoshop5-box img:hover {
 
   opacity: 0.15;
   
-} 
-
-
-.boxes .logo6-box {
-
-  width: 30%;
-  height: 358px;
-  display: block;
-  float: left;
-  margin-bottom: 40px;
-  position: relative;
-  text-align: center;
-  background-color: #000;
-  border-radius: 5px;
-
-}
-
-
-.boxes .logo6-box .text i{
-
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size:45px;
-  color: #FFFFFF;
-  opacity: 0;
-   
-} 
-
- .boxes .logo6-box:hover .text i{
-  
-  
-  font-style: bold;
-  font-weight: 600;
-  opacity: 1;
-  color: #FFFFFF;
-  transition: opacity 0.45s ease;
-
-
 }  
 
- .boxes .logo6-box img{
 
-  width: 100%;
+.boxes .photoshop6-box {
+
+  width: 63%;
   height: auto;
-  opacity: 0.9; 
-  transition: opacity 0.45s ease;
-  background-repeat: no-repeat;
-  background-size: contain; 
-  border-radius: 5px;
-
- }
-
- .boxes .logo6-box img:hover {
-
-  opacity: 0.15;
-  
-} 
-
-
-
- .boxes .logo4-box-mobile{
-   
-  display: none;
-  
- }
-
- .boxes .logo5-box-mobile{
-  
-  display: none;
-  
- }
- 
-
- .boxes .logo6-box-mobile{
-  
-  display: none;
-  
- }
-  
-
-.clear{
-
-  clear: both;
-
-}
-
-
-.boxes .logo7-box {
-
-  width: 30%;
-  height: 358px;
   display: block;
   float: left;
   margin-left: 20px;
-  margin-right: 40px;
   margin-bottom: 40px;
   position: relative;
   text-align: center;
@@ -1233,170 +790,43 @@ body {
 }
 
 
-.boxes .logo7-box .text i {
+.boxes .photoshop6-box .text i{
 
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  font-size:45px;
   color: #FFFFFF;
   opacity: 0;
    
 } 
 
- .boxes .logo7-box:hover .text i{
+ .boxes .photoshop6-box:hover .text i{
   
   
   font-style: bold;
   font-weight: 600;
   opacity: 1;
-  font-size:45px;
   color: #FFFFFF;
   transition: opacity 0.45s ease;
 
 
 }  
 
- .boxes .logo7-box img{
+ .boxes .photoshop6-box img{
 
   width: 100%;
-  height: auto;
-  opacity: 0.9; 
-  transition: opacity 0.45s ease;
-  background-repeat: no-repeat;
-  background-size: contain; 
-  border-radius: 5px;
-
- }
-
- .boxes .logo7-box img:hover {
-
-  opacity: 0.15;
-  
-} 
-
-
-.boxes .logo8-box {
-
-
-  width: 30%;
   height: 358px;
-  display: block;
-  float: left;
-  margin-right: 40px;
-  margin-bottom: 40px;
-  position: relative;
-  text-align: center;
-  background-color: #000;
-  border-radius: 5px;
-
-
-}
-
-
-.boxes .logo8-box .text i{
-
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size:45px;
-  color: #FFFFFF;
-  opacity: 0;
-   
-} 
-
- .boxes .logo8-box:hover .text i{
-  
-  
-  font-style: bold;
-  font-weight: 600;
-  opacity: 1;
-  color: #FFFFFF;
-  transition: opacity 0.45s ease;
-
-
-}  
-
-
-
- .boxes .logo8-box img{
-
-  width: 100%;
-  height: auto;
   opacity: 0.9; 
   transition: opacity 0.45s ease;
   background-repeat: no-repeat;
   background-size: contain; 
   border-radius: 5px;
 
-
  }
 
- .boxes .logo8-box img:hover {
-
-  opacity: 0.15;
-  
-} 
-
-
-.boxes .logo9-box {
-
-  width: 30%;
-  height: 358px;
-  display: block;
-  float: left;
-  margin-bottom: 40px;
-  position: relative;
-  text-align: center;
-  background-color: #000;
-  border-radius: 5px;
-
-  
-}
-
-
-.boxes .logo9-box .text i{
-
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size:45px;
-  color: #FFFFFF;
-  opacity: 0;
-   
-} 
-
- .boxes .logo9-box:hover .text i{
-  
-  
-  font-style: bold;
-  font-weight: 600;
-  opacity: 1;
-  color: #FFFFFF;
-  transition: opacity 0.45s ease;
-
-
-}  
-
- .boxes .logo9-box img{
-
-  width: 100%;
-  height: auto;
-  opacity: 0.9; 
-  transition: opacity 0.45s ease;
-  background-repeat: no-repeat;
-  background-size: contain; 
-  border-radius: 5px;
-
-
-
-
-
- }
-
- .boxes .logo9-box img:hover {
+ .boxes .photoshop6-box img:hover {
 
   opacity: 0.15;
   
@@ -1404,772 +834,928 @@ body {
 
 
 
- .boxes .logo7-box-mobile{
+ .boxes .photoshop4-box-mobile{
    
   display: none;
   
  }
 
- .boxes .logo8-box-mobile{
+ .boxes .photoshop5-box-mobile{
   
   display: none;
   
  }
  
 
- .boxes .logo9-box-mobile{
+ .boxes .photoshop6-box-mobile{
   
   display: none;
   
  }
+  
 
 
- 
-.boxes .logo10-box {
+
+.boxes .photoshop7-box {
 
   width: 30%;
-  height: 358px;
+  height: auto;
   display: block;
   float: left;
-  margin-left: 20px;
-  margin-right: 40px;
-  margin-bottom: 40px;
-  position: relative;
-  text-align: center;
-  background-color: #000;
-  border-radius: 5px;
-
-}
-
-
-.boxes .logo10-box .text i {
-
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: #ffffff;
-  opacity: 0;
-   
-} 
-
- .boxes .logo10-box:hover .text i{
-  
-  
-  font-style: bold;
-  font-weight: 600;
-  opacity: 1;
-  font-size:45px;
-  color: #FFFFFF;
-  transition: opacity 0.45s ease;
-
-
-}  
-
- .boxes .logo10-box img{
-
-  width: 100%;
-  height: auto;
-  opacity: 0.9; 
-  transition: opacity 0.45s ease;
-  background-repeat: no-repeat;
-  background-size: contain; 
-  border-radius: 5px;
-
- }
-
- .boxes .logo10-box img:hover {
-
-  opacity: 0.15;
-  
-} 
-
-
-
-.boxes .logo11-box {
-
-
-  width: 30%;
-  height: 358px;
-  display: block;
-  float: left;
-  margin-right: 40px;
-  margin-bottom: 40px;
-  position: relative;
-  text-align: center;
-  background-color: #000;
-  border-radius: 5px;
-
-}
-
-
-.boxes .logo11-box .text i{
-
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size:45px;
-  color: #FFFFFF;
-  opacity: 0;
-   
-} 
-
- .boxes .logo11-box:hover .text i{
-  
-  
-  font-style: bold;
-  font-weight: 600;
-  opacity: 1;
-  color: #FFFFFF;
-  transition: opacity 0.45s ease;
-
-
-}  
-
-
-
- .boxes .logo11-box img{
-
-  width: 100%;
-  height: auto;
-  opacity: 0.9; 
-  transition: opacity 0.45s ease;
-  background-repeat: no-repeat;
-  background-size: contain; 
-  border-radius: 5px;
-
- }
-
- .boxes .logo11-box img:hover {
-
-  opacity: 0.15;
-  
-} 
-
-
-.boxes .logo12-box {
-
-  width: 30%;
-  height: 358px;
-  display: block;
-  float: left;
-  margin-bottom: 40px;
-  position: relative;
-  text-align: center;
-  background-color: #000;
-  border-radius: 5px;
-
-
-}
-
-
-.boxes .logo12-box .text i{
-
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size:45px;
-  color: #FFFFFF;
-  opacity: 0;
-   
-} 
-
- .boxes .logo12-box:hover .text i{
-  
-  
-  font-style: bold;
-  font-weight: 600;
-  opacity: 1;
-  color: #FFFFFF;
-  transition: opacity 0.45s ease;
-
-
-}  
-
- .boxes .logo12-box img{
-
-  width: 100%;
-  height: auto;
-  opacity: 0.9; 
-  transition: opacity 0.45s ease;
-  background-repeat: no-repeat;
-  background-size: contain; 
-  border-radius: 5px;
-
-
- }
-
- .boxes .logo12-box img:hover {
-
-  opacity: 0.15;
-  
-} 
-
-
-
- .boxes .logo10-box-mobile{
-   
-  display: none;
-  
- }
-
- .boxes .logo11-box-mobile{
-  
-  display: none;
-  
- }
- 
-
- .boxes .logo12-box-mobile{
-  
-  display: none;
-  
- }
-  
-
-.clear{
-
-  clear: both;
-
-}
-
-
-.boxes .logo13-box {
-
-  width: 30%;
-  height: 358px;
-  display: block;
-  float: left;
-  margin-left: 20px;
-  margin-right: 40px;
-  margin-bottom: 40px;
-  position: relative;
-  text-align: center;
-  background-color: #000;
-  border-radius: 5px;
-
-
-}
-
-
-.boxes .logo13-box .text i {
-
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: #FFFFFF;
-  opacity: 0;
-   
-} 
-
- .boxes .logo13-box:hover .text i{
-  
-  
-  font-style: bold;
-  font-weight: 600;
-  opacity: 1;
-  font-size:45px;
-  color: #FFFFFF;
-  transition: opacity 0.45s ease;
-
-
-}  
-
- .boxes .logo13-box img{
-
-  width: 100%;
-  height: auto;
-  opacity: 0.9; 
-  transition: opacity 0.45s ease;
-  background-repeat: no-repeat;
-  background-size: contain; 
-  border-radius: 5px;
-
- }
-
- .boxes .logo13-box img:hover {
-
-  opacity: 0.15;
-  
-} 
-
-
-
-.boxes .logo14-box {
-
-
-  width: 30%;
-  height: 358px;
-  display: block;
-  float: left;
-  margin-right: 40px;
-  margin-bottom: 40px;
-  position: relative;
-  text-align: center;
-  background-color: #000;
-  border-radius: 5px;
-
-}
-
-
-.boxes .logo14-box .text i{
-
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size:45px;
-  color: #FFFFFF;
-  opacity: 0;
-   
-} 
-
- .boxes .logo14-box:hover .text i{
-  
-  
-  font-style: bold;
-  font-weight: 600;
-  opacity: 1;
-  color: #FFFFFF;
-  transition: opacity 0.45s ease;
-
-
-}  
-
-
-
- .boxes .logo14-box img{
-
-  width: 100%;
-  height: auto;
-  opacity: 0.9; 
-  transition: opacity 0.45s ease;
-  background-repeat: no-repeat;
-  background-size: contain; 
-  border-radius: 5px;
-
- }
-
- .boxes .logo14-box img:hover {
-
-  opacity: 0.15;
-  
-} 
-
-
-.boxes .logo15-box {
-
-  width: 30%;
-  height: 358px;
-  display: block;
-  float: left;
-  margin-bottom: 40px;
-  position: relative;
-  text-align: center;
-  background-color: #000;
-  border-radius: 5px;
-
-}
-
-
-.boxes .logo15-box .text i{
-
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size:45px;
-  color: #FFFFFF;
-  opacity: 0;
-   
-} 
-
- .boxes .logo15-box:hover .text i{
-  
-  
-  font-style: bold;
-  font-weight: 600;
-  opacity: 1;
-  color: #FFFFFF;
-  transition: opacity 0.45s ease;
-
-
-}  
-
- .boxes .logo15-box img{
-
-  width: 100%;
-  height: auto;
-  opacity: 0.9; 
-  transition: opacity 0.45s ease;
-  background-repeat: no-repeat;
-  background-size: contain; 
-  border-radius: 5px;
-
- }
-
- .boxes .logo15-box img:hover {
-
-  opacity: 0.15;
-  
-} 
-
-
-
- .boxes .logo13-box-mobile{
-   
-  display: none;
-  
- }
-
- .boxes .logo14-box-mobile{
-  
-  display: none;
-  
- }
- 
-
- .boxes .logo15-box-mobile{
-  
-  display: none;
-  
- }
-  
-
-.clear{
-
-  clear: both;
-
-}
-
-
-
-.boxes .logo16-box {
-
-  width: 30%;
-  height: 358px;
-  display: block;
-  float: left;
-  margin-left: 20px;
-  margin-right: 40px;
-  margin-bottom: 40px;
-  position: relative;
-  text-align: center;
-  background-color: #000;
-  border-radius: 5px;
-
-}
-
-
-.boxes .logo16-box .text i {
-
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: #FFFFFF;
-  opacity: 0;
-   
-} 
-
- .boxes .logo16-box:hover .text i{
-  
-  
-  font-style: bold;
-  font-weight: 600;
-  opacity: 1;
-  font-size:45px;
-  color: #FFFFFF;
-  transition: opacity 0.45s ease;
-
-
-}  
-
- .boxes .logo16-box img{
-
-  width: 100%;
-  height: auto;
-  opacity: 0.9; 
-  transition: opacity 0.45s ease;
-  background-repeat: no-repeat;
-  background-size: contain; 
-  border-radius: 5px;
-
-
- }
-
- .boxes .logo16-box img:hover {
-
-  opacity: 0.15;
-  
-} 
-
-
-
-.boxes .logo17-box {
-
-
-  width: 30%;
-  height: 358px;
-  display: block;
-  float: left;
-  margin-right: 40px;
-  margin-bottom: 40px;
-  position: relative;
-  text-align: center;
-  background-color: #000;
-  border-radius: 5px;
-
-
-}
-
-
-.boxes .logo17-box .text i{
-
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size:45px;
-  color: #FFFFFF;
-  opacity: 0;
-   
-} 
-
- .boxes .logo17-box:hover .text i{
-  
-  
-  font-style: bold;
-  font-weight: 600;
-  opacity: 1;
-  color: #FFFFFF;
-  transition: opacity 0.45s ease;
-
-
-}  
-
-
-
- .boxes .logo17-box img{
-
-  width: 100%;
-  height: auto;
-  opacity: 0.9; 
-  transition: opacity 0.45s ease;
-  background-repeat: no-repeat;
-  background-size: contain; 
-  border-radius: 5px;
-
-
- }
-
- .boxes .logo17-box img:hover {
-
-  opacity: 0.15;
-  
-} 
-
-
-.boxes .logo18-box {
-
-  width: 30%;
-  height: 358px;
-  display: block;
-  float: left;
-  margin-bottom: 40px;
-  position: relative;
-  text-align: center;
-  background-color: #000;
-  border-radius: 5px;
-
-  
-}
-
-
-.boxes .logo18-box .text i{
-
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size:45px;
-  color: #FFFFFF;
-  opacity: 0;
-   
-} 
-
- .boxes .logo18-box:hover .text i{
-  
-  
-  font-style: bold;
-  font-weight: 600;
-  opacity: 1;
-  color: #FFFFFF;
-  transition: opacity 0.45s ease;
-
-
-}  
-
- .boxes .logo18-box img{
-
-  width: 100%;
-  height: auto;
-  opacity: 0.9; 
-  transition: opacity 0.45s ease;
-  background-repeat: no-repeat;
-  background-size: contain; 
-  border-radius: 5px;
-
- }
-
- .boxes .logo18-box img:hover {
-
-  opacity: 0.15;
-  
-} 
-
-
-
- .boxes .logo16-box-mobile{
-   
-  display: none;
-  
- }
-
- .boxes .logo17-box-mobile{
-  
-  display: none;
-  
- }
- 
-
- .boxes .logo18-box-mobile{
-  
-  display: none;
-  
- }
-  
-
-.clear{
-
-  clear: both;
-
-}
-
-
-/* Next & previous buttons */
-
-.prev5, .next5 {
-
-  cursor: pointer;
-  /* position: absolute; */
-  bottom: 0%;
-  float: right;
-  width: auto;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-top: 0px;
-  margin-bottom: 90px;
-  color: #8c8d96;
-  background: #bbbbbb1f;
-  font-weight: bold;
-  font-size: 24px;
-  transition: 0.6s ease;
-  border-radius: 5px 5px 5px 5px;
-  user-select: none;
-
-}
-
-
-.next5 {
-  margin-right: 30px;
-  border-radius: 5px 5px 5px 5px;
-
-}
-.prev5{
+  margin-left: 40px;
   margin-right: 20px;
-  border-radius: 5px 5px 5px 5px;
+  margin-bottom: 40px;
+  position: relative;
+  text-align: center;
+  background-color: #000;
+  border-radius: 5px;
 
 }
 
 
-/* Position the "next button" to the right */
-.next5 {
-right: 0;
-/* border-radius: 5px 5px 5px 5px; */
+.boxes .photoshop7-box .text i {
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #FFFFFF;
+  opacity: 0;
+   
+} 
+
+ .boxes .photoshop7-box:hover .text i{
+  
+  
+  font-style: bold;
+  font-weight: 600;
+  opacity: 1;
+  font-size:45px;
+  color: #FFFFFF;
+  transition: opacity 0.45s ease;
+
+
+}  
+
+ .boxes .photoshop7-box img{
+
+  width: 100%;
+  height: 358px;
+  opacity: 0.9; 
+  transition: opacity 0.45s ease;
+  background-repeat: no-repeat;
+  background-size: contain; 
+  border-radius: 5px;
+
+ }
+
+ .boxes .photoshop7-box img:hover {
+
+  opacity: 0.15;
+  
+} 
+
+
+.clear{
+
+  clear: both;
+
+}
+
+.boxes .photoshop8-box {
+
+
+  width: 30%;
+  height: auto;
+  display: block;
+  float: left;
+  /* margin-right: 40px; */
+  margin-left: 20px;
+  margin-bottom: 40px;
+  position: relative;
+  text-align: center;
+  background-color: #000;
+  border-radius: 5px;
+
+
 }
 
 
-/* On hover, add a black background color with a little bit see-through */
-.prev5:hover, .next5:hover {
-background-color: rgba(0,0,0,0.8);
+.boxes .photoshop8-box .text i{
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size:45px;
+  color: #FFFFFF;
+  opacity: 0;
+   
+} 
+
+ .boxes .photoshop8-box:hover .text i{
+  
+  
+  font-style: bold;
+  font-weight: 600;
+  opacity: 1;
+  color: #FFFFFF;
+  transition: opacity 0.45s ease;
+
+
+}  
+
+
+
+ .boxes .photoshop8-box img{
+
+  width: 100%;
+  height: 358px;
+  opacity: 0.9; 
+  transition: opacity 0.45s ease;
+  background-repeat: no-repeat;
+  background-size: contain; 
+  border-radius: 5px;
+
+
+ }
+
+ .boxes .photoshop8-box img:hover {
+
+  opacity: 0.15;
+  
+} 
+
+
+.boxes .photoshop9-box {
+
+  width: 30%;
+  height: auto;
+  display: block;
+  float: left;
+  margin-left: 40px;
+  margin-bottom: 40px;
+  position: relative;
+  text-align: center;
+  background-color: #000;
+  border-radius: 5px;
+
+  
 }
 
-/* Caption text */
-/* .text5 {
-color: #f2f2f2;
-font-size: 15px;
-padding: 8px 12px;
-position: absolute;
-bottom: 8px;
-width: 100%;
-text-align: center;
-}  */
 
-/* Number text (1/3 etc) */
-/* .numbertext5 {
-color: #f2f2f2;
-font-size: 12px;
-padding: 8px 12px;
-position: absolute;
-top: 0;
-} */
+.boxes .photoshop9-box .text i{
 
-/* The dots/bullets/indicators */
-.dot5 {
-cursor: pointer;
-height: 15px;
-width: 15px;
-margin: 0 3px;
-background-color: #bbb;
-border-radius: 50%;
-display: inline-block;
-transition: background-color 0.6s ease;
-}
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size:45px;
+  color: #FFFFFF;
+  opacity: 0;
+   
+} 
 
-.active, .dot5:hover {
-background-color: #717171;
-}
+ .boxes .photoshop9-box:hover .text i{
+  
+  
+  font-style: bold;
+  font-weight: 600;
+  opacity: 1;
+  color: #FFFFFF;
+  transition: opacity 0.45s ease;
 
-/* Fading animation */
-.fade {
--webkit-animation-name: fade;
--webkit-animation-duration: 1.5s;
-animation-name: fade;
-animation-duration: 1.5s;
-}
 
-@-webkit-keyframes fade {
-from {opacity: .4}
-to {opacity: 1}
-}
+}  
 
-@keyframes fade {
-from {opacity: .4}
-to {opacity: 1}
-}
+ .boxes .photoshop9-box img{
 
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-.prevv, .nextt,.textt {font-size: 11px}
-}
+  width: 100%;
+  height: 358px;
+  opacity: 0.9; 
+  transition: opacity 0.45s ease;
+  background-repeat: no-repeat;
+  background-size: contain; 
+  border-radius: 5px;
+ }
+
+ .boxes .photoshop9-box img:hover {
+
+  opacity: 0.15;
+  
+} 
+
+
+ .boxes .photoshop7-box-mobile{
+   
+  display: none;
+  
+ }
+
+ .boxes .photoshop8-box-mobile{
+  
+  display: none;
+  
+ }
+ 
+
+ .boxes .photoshop9-box-mobile{
+  
+  display: none;
+  
+ }
 
 
  
-/* ADDITIONAL WORKS */
+.boxes .photoshop10-box {
+
+  width: 30%;
+  height: auto;
+  display: block;
+  float: left;
+  margin-left: 40px;
+  margin-right: 20px;
+  margin-bottom: 40px;
+  position: relative;
+  text-align: center;
+  background-color: #000;
+  border-radius: 5px;
+
+}
+
+
+.boxes .photoshop10-box .text i {
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  opacity: 0;
+   
+} 
+
+ .boxes .photoshop10-box:hover .text i{
+  
+  
+  font-style: bold;
+  font-weight: 600;
+  opacity: 1;
+  font-size:45px;
+  color: #FFFFFF;
+  transition: opacity 0.45s ease;
+
+
+}  
+
+ .boxes .photoshop10-box img{
+
+  width: 100%;
+  height: 358px;
+  opacity: 0.9; 
+  transition: opacity 0.45s ease;
+  background-repeat: no-repeat;
+  background-size: contain; 
+  border-radius: 5px;
+
+ }
+
+ .boxes .photoshop10-box img:hover {
+
+  opacity: 0.15;
+  
+} 
+
+
+.clear{
+  clear: both;
+}
+
+
+
+.boxes .photoshop11-box {
+
+
+  width: 46.5%;
+  height: auto;
+  display: block;
+  float: left;
+  margin-left: 20px;
+  margin-right: 40px;
+  margin-bottom: 40px;
+  position: relative;
+  text-align: center;
+  background-color: #000;
+  border-radius: 5px;
+
+}
+
+
+.boxes .photoshop11-box .text i{
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size:45px;
+  color: #FFFFFF;
+  opacity: 0;
+   
+} 
+
+ .boxes .photoshop11-box:hover .text i{
+  
+  
+  font-style: bold;
+  font-weight: 600;
+  opacity: 1;
+  color: #FFFFFF;
+  transition: opacity 0.45s ease;
+
+
+}  
+
+
+
+ .boxes .photoshop11-box img{
+
+  width: 100%;
+  height: 358px;
+  opacity: 0.9; 
+  transition: opacity 0.45s ease;
+  background-repeat: no-repeat;
+  background-size: contain; 
+  border-radius: 5px;
+
+ }
+
+ .boxes .photoshop11-box img:hover {
+
+  opacity: 0.15;
+  
+} 
+
+
+.boxes .photoshop12-box {
+
+  width: 46.5%;
+  height: auto;
+  display: block;
+  float: left;
+  /* margin-left: 20px; */
+  margin-right: 20px;
+  margin-bottom: 40px;
+  position: relative;
+  text-align: center;
+  background-color: #000;
+  border-radius: 5px;
+
+
+}
+
+
+.boxes .photoshop12-box .text i{
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size:45px;
+  color: #FFFFFF;
+  opacity: 0;
+   
+} 
+
+ .boxes .photoshop12-box:hover .text i{
+  
+  
+  font-style: bold;
+  font-weight: 600;
+  opacity: 1;
+  color: #FFFFFF;
+  transition: opacity 0.45s ease;
+
+
+}  
+
+ .boxes .photoshop12-box img{
+
+  width: 100%;
+  height: 358px;
+  opacity: 0.9; 
+  transition: opacity 0.45s ease;
+  background-repeat: no-repeat;
+  background-size: contain; 
+  border-radius: 5px;
+
+
+ }
+
+ .boxes .photoshop12-box img:hover {
+
+  opacity: 0.15;
+  
+} 
+
+
+
+ .boxes .photoshop10-box-mobile{
+   
+  display: none;
+  
+ }
+
+ .boxes .photoshop11-box-mobile{
+  
+  display: none;
+  
+ }
+ 
+
+ .boxes .photoshop12-box-mobile{
+  
+  display: none;
+  
+ }
+  
+
+.clear{
+
+  clear: both;
+
+}
+
+
+.boxes .photoshop13-box {
+
+  width: 30%;
+  height: auto;
+  display: block;
+  float: left;
+  margin-left: 20px;
+  margin-right: 40px;
+  margin-bottom: 40px;
+  position: relative;
+  text-align: center;
+  background-color: #000;
+  border-radius: 5px;
+
+
+}
+
+
+.boxes .photoshop13-box .text i {
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #FFFFFF;
+  opacity: 0;
+   
+} 
+
+ .boxes .photoshop13-box:hover .text i{
+  
+  
+  font-style: bold;
+  font-weight: 600;
+  opacity: 1;
+  font-size:45px;
+  color: #FFFFFF;
+  transition: opacity 0.45s ease;
+
+
+}  
+
+ .boxes .photoshop13-box img{
+
+  width: 100%;
+  height: 756px;
+  opacity: 0.9; 
+  transition: opacity 0.45s ease;
+  background-repeat: no-repeat;
+  background-size: contain; 
+  border-radius: 5px;
+
+ }
+
+ .boxes .photoshop13-box img:hover {
+
+  opacity: 0.15;
+  
+} 
+
+
+
+.boxes .photoshop14-box {
+
+
+  width: 63%;
+  height: auto;
+  display: block;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 40px;
+  position: relative;
+  text-align: center;
+  background-color: #000;
+  border-radius: 5px;
+
+}
+
+
+.boxes .photoshop14-box .text i{
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size:45px;
+  color: #FFFFFF;
+  opacity: 0;
+   
+} 
+
+ .boxes .photoshop14-box:hover .text i{
+  
+  
+  font-style: bold;
+  font-weight: 600;
+  opacity: 1;
+  color: #FFFFFF;
+  transition: opacity 0.45s ease;
+
+}  
+
+ .boxes .photoshop14-box img{
+
+  width: 100%;
+  height: 358px;
+  opacity: 0.9; 
+  transition: opacity 0.45s ease;
+  background-repeat: no-repeat;
+  background-size: contain; 
+  border-radius: 5px;
+
+ }
+
+ .boxes .photoshop14-box img:hover {
+
+  opacity: 0.15;
+  
+} 
+
+
+.boxes .photoshop15-box {
+
+  width: 63%;
+  height: auto;
+  display: block;
+  float: left;
+  margin-bottom: 40px;
+  position: relative;
+  text-align: center;
+  background-color: #000;
+  border-radius: 5px;
+
+}
+
+
+.boxes .photoshop15-box .text i{
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size:45px;
+  color: #FFFFFF;
+  opacity: 0;
+   
+} 
+
+ .boxes .photoshop15-box:hover .text i{
+  
+  
+  font-style: bold;
+  font-weight: 600;
+  opacity: 1;
+  color: #FFFFFF;
+  transition: opacity 0.45s ease;
+
+
+}  
+
+ .boxes .photoshop15-box img{
+
+  width: 100%;
+  height: 358px;
+  opacity: 0.9; 
+  transition: opacity 0.45s ease;
+  background-repeat: no-repeat;
+  background-size: contain; 
+  border-radius: 5px;
+
+ }
+
+ .boxes .photoshop15-box img:hover {
+
+  opacity: 0.15;
+  
+} 
+
+
+ .boxes .photoshop13-box-mobile{
+   
+  display: none;
+  
+ }
+
+ .boxes .photoshop14-box-mobile{
+  
+  display: none;
+  
+ }
+ 
+
+ .boxes .photoshop15-box-mobile{
+  
+  display: none;
+  
+ }
+  
+
+.clear{
+
+  clear: both;
+
+}
+
+
+.boxes .photoshop16-box {
+
+  width: 63%;
+  height: auto;
+  display: block;
+  float: left;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 40px;
+  position: relative;
+  text-align: center;
+  background-color: #000;
+  border-radius: 5px;
+
+}
+
+
+.boxes .photoshop16-box .text i {
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #FFFFFF;
+  opacity: 0;
+   
+} 
+
+ .boxes .photoshop16-box:hover .text i{
+  
+  
+  font-style: bold;
+  font-weight: 600;
+  opacity: 1;
+  font-size:45px;
+  color: #FFFFFF;
+  transition: opacity 0.45s ease;
+
+}  
+
+ .boxes .photoshop16-box img{
+
+  width: 100%;
+  height: 358px;
+  opacity: 0.9; 
+  transition: opacity 0.45s ease;
+  background-repeat: no-repeat;
+  background-size: contain; 
+  border-radius: 5px;
+
+ }
+
+ .boxes .photoshop16-box img:hover {
+
+  opacity: 0.15;
+  
+} 
+
+.boxes .photoshop17-box {
+
+
+  width: 30%;
+  height: auto;
+  display: block;
+  float: right;
+  margin-right: 30px;
+  margin-bottom: 40px;
+  position: relative;
+  text-align: center;
+  background-color: #000;
+  border-radius: 5px;
+
+}
+
+
+.boxes .photoshop17-box .text i{
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size:45px;
+  color: #FFFFFF;
+  opacity: 0;
+   
+} 
+
+ .boxes .photoshop17-box:hover .text i{
+  
+  
+  font-style: bold;
+  font-weight: 600;
+  opacity: 1;
+  color: #FFFFFF;
+  transition: opacity 0.45s ease;
+
+}  
+
+ .boxes .photoshop17-box img{
+
+  width: 100%;
+  height: 756px;
+  opacity: 0.9; 
+  transition: opacity 0.45s ease;
+  background-repeat: no-repeat;
+  background-size: contain; 
+  border-radius: 5px;
+
+}
+
+ .boxes .photoshop17-box img:hover {
+
+  opacity: 0.15;
+  
+} 
+
+
+.boxes .photoshop18-box {
+
+  width: 30%;
+  height: auto;
+  display: block;
+  float: left;
+  margin-left: 20px;
+  margin-right: 40px;
+  margin-bottom: 90px;
+  position: relative;
+  text-align: center;
+  background-color: #000;
+  border-radius: 5px;
+  
+}
+
+.boxes .photoshop18-box .text i{
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size:45px;
+  color: #FFFFFF;
+  opacity: 0;
+   
+} 
+
+ .boxes .photoshop18-box:hover .text i{
+  
+  
+  font-style: bold;
+  font-weight: 600;
+  opacity: 1;
+  color: #FFFFFF;
+  transition: opacity 0.45s ease;
+
+}  
+
+ .boxes .photoshop18-box img{
+
+  width: 100%;
+  height: 358px;
+  opacity: 0.9; 
+  transition: opacity 0.45s ease;
+  background-repeat: no-repeat;
+  background-size: contain; 
+  border-radius: 5px;
+
+ }
+
+ .boxes .photoshop18-box img:hover {
+
+  opacity: 0.15;
+  
+} 
+
+
+ .boxes .photoshop16-box-mobile{
+   
+  display: none;
+  
+ }
+
+ .boxes .photoshop17-box-mobile{
+  
+  display: none;
+  
+ }
+ 
+
+ .boxes .photoshop18-box-mobile{
+  
+  display: none;
+  
+ }
+  
+
+.boxes .photoshop19-box {
+
+  width: 30%;
+  height: auto;
+  display: block;
+  float: left;
+  margin-bottom: 40px;
+  position: relative;
+  text-align: center;
+  background-color: #000;
+  border-radius: 5px;
+
+}
+
+.boxes .photoshop19-box .text i {
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #FFFFFF;
+  opacity: 0;
+   
+} 
+
+ .boxes .photoshop19-box:hover .text i{
+  
+  
+  font-style: bold;
+  font-weight: 600;
+  opacity: 1;
+  font-size:45px;
+  color: #FFFFFF;
+  transition: opacity 0.45s ease;
+
+}  
+
+ .boxes .photoshop19-box img{
+
+  width: 100%;
+  height: 358px;
+  opacity: 0.9; 
+  transition: opacity 0.45s ease;
+  background-repeat: no-repeat;
+  background-size: contain; 
+  border-radius: 5px;
+
+ }
+
+ .boxes .photoshop19-box img:hover {
+
+  opacity: 0.15;
+  
+} 
+
+.boxes .photoshop19-box-mobile{
+  
+  display: none;
+  
+ }
+
+.clear{
+
+  clear: both;
+
+}
+
+ 
+/*////// ADDITIONAL WORKS //////// */
 
 .additional-work{
   font-family: 'Montserat', monospace ;  
@@ -2204,6 +1790,7 @@ to {opacity: 1}
   font-style: normal;
   font-weight: 600;
   font-size: 30px;
+
   
 }
 
@@ -2213,7 +1800,7 @@ to {opacity: 1}
 }
 
 
-.additional-boxes .logo-box {
+.additional-boxes .project-box {
 
   width: 30%;
   height: 321px;
@@ -2226,11 +1813,10 @@ to {opacity: 1}
   text-align: center;
   background-color: #000;
   border-radius: 5px;
-
 }
 
 
-.additional-boxes .logo-box .text {
+.additional-boxes .project-box .text {
 
   position: absolute;
   top: 50%;
@@ -2241,7 +1827,7 @@ to {opacity: 1}
    
 } 
 
- .additional-boxes .logo-box:hover .text{
+ .additional-boxes .project-box:hover .text{
   
   
   font-style: bold;
@@ -2254,7 +1840,7 @@ to {opacity: 1}
 
 }  
 
- .additional-boxes .logo-box img{
+ .additional-boxes .project-box img{
 
   width: 100%;
   height: auto;
@@ -2266,14 +1852,14 @@ to {opacity: 1}
 
  }
 
- .additional-boxes .logo-box img:hover {
+ .additional-boxes .project-box img:hover {
 
   opacity: 0.15;
   
 } 
 
 
-.additional-boxes .photoshop-box {
+.additional-boxes .project-box-2 {
 
 
   width: 30%;
@@ -2286,11 +1872,10 @@ to {opacity: 1}
   text-align: center;
   background-color: #000;
   border-radius: 5px;
-
 }
 
 
-.additional-boxes .photoshop-box .text {
+.additional-boxes .project-box-2 .text {
 
   position: absolute;
   top: 50%;
@@ -2302,7 +1887,7 @@ to {opacity: 1}
    
 } 
 
- .additional-boxes .photoshop-box:hover .text{
+ .additional-boxes .project-box-2:hover .text{
   
   
   font-style: bold;
@@ -2314,7 +1899,7 @@ to {opacity: 1}
 
 }  
 
- .additional-boxes .photoshop-box img{
+ .additional-boxes .project-box-2 img{
 
   width: 100%;
   height: auto;
@@ -2324,16 +1909,17 @@ to {opacity: 1}
   background-size: contain; 
   border-radius: 5px;
 
+
  }
 
- .additional-boxes .photoshop-box img:hover {
+ .additional-boxes .project-box-2 img:hover {
 
   opacity: 0.15;
   
 } 
 
 
-.additional-boxes .new-photoshop-box {
+.additional-boxes .project-box-3 {
 
   width: 30%;
   height: 321px;
@@ -2344,11 +1930,10 @@ to {opacity: 1}
   text-align: center;
   background-color: #000;
   border-radius: 5px;
-
 }
 
 
-.additional-boxes .new-photoshop-box .text {
+.additional-boxes .project-box-3 .text {
 
   position: absolute;
   top: 50%;
@@ -2360,7 +1945,7 @@ to {opacity: 1}
    
 } 
 
- .additional-boxes .new-photoshop-box:hover .text{
+ .additional-boxes .project-box-3:hover .text{
   
   
   font-style: bold;
@@ -2372,7 +1957,7 @@ to {opacity: 1}
 
 }  
 
- .additional-boxes .new-photoshop-box img{
+ .additional-boxes .project-box-3 img{
 
   width: 100%;
   height: auto;
@@ -2380,30 +1965,29 @@ to {opacity: 1}
   transition: opacity 0.45s ease;
   background-repeat: no-repeat;
   background-size: contain; 
-  border-radius: 5px;
 
  }
 
- .additional-boxes .new-photoshop-box img:hover {
+ .additional-boxes .project-box-3 img:hover {
 
   opacity: 0.15;
   
 } 
 
- .additional-boxes .logo-box-mobile{
+ .additional-boxes .project-box-mobile{
    
   display: none;
   
  }
 
- .additional-boxes .photoshop-box-mobile{
+ .additional-boxes .project-box-2-mobile{
   
   display: none;
   
  }
  
 
- .additional-boxes .new-photoshop-box-mobile{
+ .additional-boxes .project-box-3-mobile{
   
   display: none;
   
@@ -2416,7 +2000,7 @@ to {opacity: 1}
 
 }
 
-  /* Footer */
+  /* /////////// Footer ///////////// */
   
   .footer{
   
@@ -2573,7 +2157,7 @@ to {opacity: 1}
   
   
   
-  @media  screen and (max-width:1300px){
+  @media  screen and (max-width:1250px){
   
   
 /*///////////////// HERO //////////////////// 1300px */
@@ -2606,31 +2190,8 @@ to {opacity: 1}
 }
 
 
-/*/////////////////  Design Process //////////////////// 1300px */
 
-
-.design-process .title {
-  font-size: 50px;
-  padding-top: 64px; 
-}
-
-
-.design-process .description1, .design-process .description2{
-
-  font-size: 20px;
-}
-
-.design-process .description2{
-
-  padding-bottom: 64px;
-}
-
-.design-process .sub_titile{
-
-  font-size: 28px;
-}
-
-/*///////////////// Logo Design Concept //////////////////// 1300px */
+/*///////////////// PHOTOSHOP INTRODUCTION //////////////////// 1300px */
 
 
 .process .title2 {
@@ -2677,75 +2238,178 @@ to {opacity: 1}
     margin-bottom: 64px;
   }
 
-  /* Boxes */
-
-  .boxes .all {
- 
-    display: initial;
-    position: initial; 
-    margin-left: 0px;
   
-  }
 
-  .boxes-icon {
-
-    padding-top: 64px;
-    padding-bottom: 64px;
-  }
-
-
-  .boxes-icon .all .card1{
-
-    width: 24%;
-    font-size: 20px;
-    margin-right: 32px;
-    margin-bottom: 0px;
-    float: left;
-  }
-
-  .boxes-icon .all .card2{
-
-    width: 24%;
-    font-size: 20px;
-    margin-left: 20px;
-    margin-right: 32px;
-    margin-bottom: 0px;
-    float: left;
-  }
-
-  .boxes-icon .all .card3{
-
-    width: 24%;
-    font-size: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 0px;
-    float: left;
-  }
-
-/* ///////////////////////// Logo Design //////////////////////////////////////// 1300px */
+/* ///////////////////////// PHOTOSHOP WORK //////////////////////////////////////// 1300px */
   
-.logo-design .title{
+.photoshop-work .title{
 
   font-size:50px;
   padding:64px 20px 45px 20px;
 }
 
 
+.boxes .photoshop1-box{
+
+  width: 62%;
+  height: initial;
+  margin-bottom: 0px;
+}
 
 
-.boxes .logo1-box, .boxes .logo2-box, .boxes .logo3-box, .boxes .logo4-box, .boxes .logo5-box, .boxes .logo6-box, .boxes .logo7-box, .boxes .logo8-box, .boxes .logo9-box {
+.boxes .photoshop2-box, .boxes .photoshop3-box {
 
     width: 29%;
     height: initial;
 }
 
+.boxes .photoshop2-box img, .boxes .photoshop3-box img{
 
-
-.prev5, .next5{
-
-  margin-bottom: 0px;
+  height: auto;
 }
+
+
+.boxes .photoshop4-box{
+
+  width: 29%;
+  height: initial;
+ 
+}
+
+.boxes .photoshop4-box img{
+
+  height: auto;
+
+}
+
+.boxes .photoshop5-box{
+
+  width: 62%;
+  height: initial;
+ 
+}
+
+.boxes .photoshop5-box img{
+
+  height: auto;
+
+}
+
+.boxes .photoshop6-box{
+
+  width: 62%;
+  height: initial;
+ 
+}
+
+.boxes .photoshop6-box img{
+
+  height: auto;
+
+}
+
+
+.boxes .photoshop7-box{
+
+  width: 29%;
+  height: initial;
+}
+
+.boxes .photoshop7-box img{
+
+height: auto;
+
+}
+
+.boxes .photoshop8-box, .boxes .photoshop9-box, .boxes .photoshop10-box{
+
+  width: 29%;
+  height: initial;
+}
+
+.boxes .photoshop8-box img, .boxes .photoshop9-box img, .boxes .photoshop10-box img{
+
+height: auto;
+
+}
+
+
+.boxes .photoshop11-box, .boxes .photoshop12-box{
+
+  width: 45.5%;
+  height: initial;
+}
+
+.boxes .photoshop11-box img, .boxes .photoshop12-box img{
+
+height: auto;
+
+}
+
+.boxes .photoshop13-box{
+
+  width: 29.8%;
+ height: initial;
+
+}
+
+.boxes .photoshop13-box img{
+
+height: auto;
+
+}
+
+.boxes .photoshop14-box, .boxes .photoshop15-box{
+
+  width: 61.5%;
+  height: initial;
+}
+
+.boxes .photoshop14-box img, .boxes .photoshop15-box img{
+
+height: auto;
+
+}
+
+.boxes .photoshop16-box{
+
+  width: 62%;
+  height: initial;
+ 
+}
+
+.boxes .photoshop16-box img{
+
+  height: auto;
+
+}
+
+.boxes .photoshop17-box{
+
+  width: 29.8%;
+ height: initial;
+
+}
+
+.boxes .photoshop17-box img{
+
+height: auto;
+
+}
+
+
+.boxes .photoshop18-box, .boxes .photoshop19-box {
+
+  width: 29%;
+  height: initial;
+}
+
+.boxes .photoshop18-box img, .boxes .photoshop19-box img {
+
+height: auto;
+
+}
+
 
 
 /* ///////////////////////// Other Case Studies //////////////////////////////////////// 1300px */
@@ -2773,13 +2437,13 @@ to {opacity: 1}
   display: none;
 }
 
-.additional-boxes .logo-box {
-  width: 30%;
+.additional-boxes .project-box {
+  width: 29%;
   height: auto;
   display: block;
   float: left;
   margin-left: 20px;
-  margin-right: 30px;
+  margin-right: 40px;
   margin-bottom: 64px;
   position: relative;
   text-align: center;
@@ -2787,20 +2451,20 @@ to {opacity: 1}
 
 }  
 
-.additional-boxes .photoshop-box {
-width: 30%;
+.additional-boxes .project-box-2 {
+width: 29%;
 height: auto;
 display: block;
 float: left;
-margin-right: 30px;
+margin-right: 40px;
 margin-bottom: 64px;
 position: relative;
 text-align: center;
 background-color: #000;
 
 }
-.additional-boxes .new-photoshop-box {
-width: 30%;
+.additional-boxes .project-box-3 {
+width: 29%;
 height: auto;
 display: block;
 float: left;
@@ -2958,7 +2622,7 @@ background-color: #000;
     background-color: #424ECC;
     border: none;
     margin-top: 10px;  
-    width: 200px;
+    width: 250px;
     transition: all 0.5s;
     cursor: pointer;
     
@@ -2970,7 +2634,7 @@ background-color: #000;
     color: white;
     transform: scale(1.05);
   }
-  
+   
 
 /* HERO */
 
@@ -3030,37 +2694,7 @@ background-color: #000;
 
 
 
-/*/////////////////// Logo Design Process ////////////////////////*/
-
-.design-process .title{
-
-  font-size: 45px;
-  line-height: 60px;
-  margin-top: 0px;
-  padding-top: 45px;
-}
-
-.design-process .sub_titile{
-
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 60px;
-  padding-top: 32px;
-}
-
-
-.design-process .description1, .design-process .description2{
-
-  font-size: 18px;
-  padding-top:18px;
-}
-.design-process .description2{
-
-  padding-bottom:45px;
-
-}
-
-/*/////////////////// Logo Design Concept ////////////////////////*/
+/*/////////////////// PHOTOSHOP INTRO ////////////////////////*/
 
 .process .title2{
   
@@ -3143,10 +2777,10 @@ margin-left: 0px;
 
 }
 
-/*/////////////////// Logo Design ////////////////////////*/
+/*/////////////////// PHOTOSHOP WORK ////////////////////////*/
 
 
-.logo-design .title{
+.photoshop-work .title{
 
   font-size: 45px;
   padding-top: 45px;
@@ -3156,33 +2790,27 @@ margin-left: 0px;
 }
 
 
-.boxes .logo1-box, .boxes .logo2-box, .boxes .logo3-box, .boxes .logo4-box, .boxes .logo5-box, .boxes .logo6-box, .boxes .logo7-box, .boxes .logo8-box, .boxes .logo9-box, .boxes .logo10-box, .boxes .logo11-box, .boxes .logo12-box, .boxes .logo13-box, .boxes .logo14-box, .boxes .logo15-box, .boxes .logo16-box, .boxes .logo17-box, .boxes .logo18-box {
-
-  display: none;
-}
-
-/* left and right buttons */
-.prev5, .next5{
+.boxes .photoshop1-box, .boxes .photoshop2-box, .boxes .photoshop3-box, .boxes .photoshop4-box, .boxes .photoshop5-box, .boxes .photoshop6-box, .boxes .photoshop7-box, .boxes .photoshop8-box, .boxes .photoshop9-box, .boxes .photoshop10-box, .boxes .photoshop11-box, .boxes .photoshop12-box, .boxes .photoshop13-box, .boxes .photoshop14-box, .boxes .photoshop15-box, .boxes .photoshop16-box, .boxes .photoshop17-box, .boxes .photoshop18-box, .boxes .photoshop19-box{
 
   display: none;
 }
 
 
-.logo-slider-mobile{
+.photoshop-slider-mobile{
   display: block;
 }
 
 
 /* Slideeshow container */
 
-.Slideeshow-container, .Slidee2show-container, .Slidee3show-container, .Slidee4show-container, .Slidee5show-container, .Slidee6show-container, .Slidee7show-container, .Slidee8show-container, .Slidee9show-container, .Slidee10show-container, .Slidee6show-container, .Slidee11show-container, .Slidee12show-container, .Slidee13show-container, .Slidee14show-container, .Slidee15show-container, .Slidee16show-container, .Slidee17show-container, .Slidee18show-container {
+.Slideeshow-container, .Slidee2show-container, .Slidee3show-container, .Slidee4show-container, .Slidee5show-container, .Slidee6show-container, .Slidee7show-container, .Slidee8show-container, .Slidee9show-container, .Slidee10show-container, .Slidee6show-container, .Slidee11show-container, .Slidee12show-container, .Slidee13show-container, .Slidee14show-container, .Slidee15show-container, .Slidee16show-container, .Slidee17show-container, .Slidee18show-container, .Slidee19show-container{
   display: inherit;
   max-width: 1000px;
   position: relative;
   margin: auto;
 }
 
-.Slideeshow-container .mySlidees, .Slidee2show-container .mySlidees2, .Slidee3show-container .mySlidees3, .Slidee4show-container .mySlidees4, .Slidee5show-container .mySlidees5, .Slidee6show-container .mySlidees6, .Slidee7show-container .mySlidees7, .Slidee8show-container .mySlidees8, .Slidee9show-container .mySlidees9, .Slidee10show-container .mySlidees10, .Slidee11show-container .mySlidees11, .Slidee12show-container .mySlidees12, .Slidee13show-container .mySlidees13, .Slidee14show-container .mySlidees14, .Slidee15show-container .mySlidees15, .Slidee16show-container .mySlidees16, .Slidee17show-container .mySlidees17, .Slidee18show-container .mySlidees18{
+.Slideeshow-container .mySlidees, .Slidee2show-container .mySlidees2, .Slidee3show-container .mySlidees3, .Slidee4show-container .mySlidees4, .Slidee5show-container .mySlidees5, .Slidee6show-container .mySlidees6, .Slidee7show-container .mySlidees7, .Slidee8show-container .mySlidees8, .Slidee9show-container .mySlidees9, .Slidee10show-container .mySlidees10, .Slidee11show-container .mySlidees11, .Slidee12show-container .mySlidees12, .Slidee13show-container .mySlidees13, .Slidee14show-container .mySlidees14, .Slidee15show-container .mySlidees15, .Slidee16show-container .mySlidees16, .Slidee17show-container .mySlidees17, .Slidee18show-container .mySlidees18, .Slidee19show-container .mySlidees19{
 
   text-align: center;
   background-color: none;
@@ -3191,7 +2819,7 @@ margin-left: 0px;
 
 }
 
-.Slideeshow-container .mySlidees img, .Slidee2show-container .mySlidees2 img, .Slidee3show-container .mySlidees3 img, .Slidee4show-container .mySlidees4 img, .Slidee5show-container .mySlidees5 img, .Slidee6show-container .mySlidees6 img, .Slidee7show-container .mySlidees7 img, .Slidee8show-container .mySlidees8 img, .Slidee9show-container .mySlidees9 img, .Slidee10show-container .mySlidees10 img, .Slidee11show-container .mySlidees11 img, .Slidee12show-container .mySlidees12 img, .Slidee13show-container .mySlidees13 img, .Slidee14show-container .mySlidees14 img, .Slidee15show-container .mySlidees15 img, .Slidee16show-container .mySlidees16 img, .Slidee17show-container .mySlidees17 img, .Slidee18show-container .mySlidees18 img {
+.Slideeshow-container .mySlidees img, .Slidee2show-container .mySlidees2 img, .Slidee3show-container .mySlidees3 img, .Slidee4show-container .mySlidees4 img, .Slidee5show-container .mySlidees5 img, .Slidee6show-container .mySlidees6 img, .Slidee7show-container .mySlidees7 img, .Slidee8show-container .mySlidees8 img, .Slidee9show-container .mySlidees9 img, .Slidee10show-container .mySlidees10 img, .Slidee11show-container .mySlidees11 img, .Slidee12show-container .mySlidees12 img, .Slidee13show-container .mySlidees13 img, .Slidee14show-container .mySlidees14 img, .Slidee15show-container .mySlidees15 img, .Slidee16show-container .mySlidees16 img, .Slidee17show-container .mySlidees17 img, .Slidee18show-container .mySlidees18 img, .Slidee19show-container .mySlidees19 img{
 
   border-radius: 5px;
 
@@ -3200,7 +2828,7 @@ margin-left: 0px;
 
 /* Next & previous buttons */
 
-.prevv, .nextt, .prevv2, .nextt2, .prevv3, .nextt3, .prevv4, .nextt4, .prevv5, .nextt5, .prevv6, .nextt6, .prevv7, .nextt7, .prevv8, .nextt8, .prevv9, .nextt9, .prevv10, .nextt10, .prevv11, .nextt11, .prevv12, .nextt12, .prevv13, .nextt13, .prevv14, .nextt14, .prevv15, .nextt15, .prevv16, .nextt16, .prevv17, .nextt17, .prevv18, .nextt18{
+.prevv, .nextt, .prevv2, .nextt2, .prevv3, .nextt3, .prevv4, .nextt4, .prevv5, .nextt5, .prevv6, .nextt6, .prevv7, .nextt7, .prevv8, .nextt8, .prevv9, .nextt9, .prevv10, .nextt10, .prevv11, .nextt11, .prevv12, .nextt12, .prevv13, .nextt13, .prevv14, .nextt14, .prevv15, .nextt15, .prevv16, .nextt16, .prevv17, .nextt17, .prevv18, .nextt18, .prevv19, .nextt19{
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -3220,53 +2848,36 @@ margin-left: 0px;
 }
 
 /* Position the "next button" to the right */
-.nextt, .nextt2, .nextt3, .nextt4, .nextt5, .nextt6, .nextt7, .nextt8, .nextt9, .nextt10, .nextt11, .nextt12, .nextt13, .nextt14, .nextt15, .nextt16, .nextt17, .nextt18 {
+.nextt, .nextt2, .nextt3, .nextt4, .nextt5, .nextt6, .nextt7, .nextt8, .nextt9, .nextt10, .nextt11, .nextt12, .nextt13, .nextt14, .nextt15, .nextt16, .nextt17, .nextt18, .nextt19 {
 right: 0;
 border-radius: 3px 0 0 3px;
 
 }
 
 /* On hover, add a black background color with a little bit see-through */
-.prevv:hover, .nextt:hover, .prevv2:hover, .nextt2:hover, .prevv3:hover, .nextt3:hover, .prevv4:hover, .nextt4:hover, .prevv5:hover, .nextt5:hover, .prevv6:hover, .nextt6:hover, .prevv7:hover, .nextt7:hover, .prevv8:hover, .nextt8:hover, .prevv9:hover, .nextt9:hover, .prevv10:hover, .nextt10:hover, .prevv11:hover, .nextt11:hover, .prevv12:hover, .nextt12:hover, .prevv13:hover, .nextt13:hover, .prevv14:hover, .nextt14:hover, .prevv15:hover, .nextt15:hover, .prevv16:hover, .nextt16:hover, .prevv17:hover, .nextt17:hover, .prevv18:hover, .nextt18:hover{
+.prevv:hover, .nextt:hover, .prevv2:hover, .nextt2:hover, .prevv3:hover, .nextt3:hover, .prevv4:hover, .nextt4:hover, .prevv5:hover, .nextt5:hover, .prevv6:hover, .nextt6:hover, .prevv7:hover, .nextt7:hover, .prevv8:hover, .nextt8:hover, .prevv9:hover, .nextt9:hover, .prevv10:hover, .nextt10:hover, .prevv11:hover, .nextt11:hover, .prevv12:hover, .nextt12:hover, .prevv13:hover, .nextt13:hover, .prevv14:hover, .nextt14:hover, .prevv15:hover, .nextt15:hover, .prevv16:hover, .nextt16:hover, .prevv17:hover, .nextt17:hover, .prevv18:hover, .nextt18:hover, .prevv19:hover, .nextt19:hover{
 background-color: rgba(0,0,0,0.8);
 }
 
-/* Caption text */
-/* .textt {
-color: #f2f2f2;
-font-size: 15px;
-padding: 8px 12px;
-position: absolute;
-bottom: 8px;
-width: 100%;
-text-align: center;
-} */
-
-/* Number text (1/3 etc) */
-/* .numbertextt {
-color: #f2f2f2;
-font-size: 12px;
-padding: 8px 12px;
-position: absolute;
-top: 0;
-} */
-
 /* The dots/bullets/indicators */
-.dott, .dott2, .dott3, .dott4, .dott5, .dott6, .dott7, .dott8, .dott9, .dott10, .dott11, .dott12, .dott13, .dott14, .dott15, .dott16, .dott17, .dott18{
-cursor: pointer;
-height: 15px;
-width: 15px;
-margin: 0 3px;
-margin-bottom: 25px;
-background-color: #bbb;
-border-radius: 50%;
-display: inline-block;
-transition: background-color 0.6s ease;
+.dott, .dott2, .dott3, .dott4, .dott5, .dott6, .dott7, .dott8, .dott9, .dott10, .dott11, .dott12, .dott13, .dott14, .dott15, .dott16, .dott17, .dott18, .dott19{
+
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 3px;
+  margin-bottom: 25px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
 
 }
 
-.active, .dott:hover, .dott2:hover, .dott3:hover, .dott4:hover, .dott5:hover, .dott6:hover, .dott7:hover, .dott8:hover, .dott9:hover, .dott10:hover, .dott11:hover, .dott12:hover, .dott13:hover, .dott14:hover, .dott15:hover, .dott16:hover, .dott17:hover, .dott18:hover{
-background-color: #717171;
+.active, .dott:hover, .dott2:hover, .dott3:hover, .dott4:hover, .dott5:hover, .dott6:hover, .dott7:hover, .dott8:hover, .dott9:hover, .dott10:hover, .dott11:hover, .dott12:hover, .dott13:hover, .dott14:hover, .dott15:hover, .dott16:hover, .dott17:hover, .dott18:hover, .dott19:hover{
+
+  background-color: #717171;
+
 }
 
 
@@ -3294,6 +2905,10 @@ to {opacity: 1}
 }
 
 
+
+/* ///////////////// OTHER CASE STUDIES //////////////////// */
+
+
 /* Additional-boxes */
 
 .additional-boxes {
@@ -3311,7 +2926,7 @@ to {opacity: 1}
 }
 
 
-.additional-boxes .logo-box, .additional-boxes .photoshop-box, .additional-boxes .new-photoshop-box {
+.additional-boxes .project-box, .additional-boxes .project-box-2, .additional-boxes .project-box-3 {
 
   display: none;
 
@@ -3375,26 +2990,6 @@ border-radius: 3px 0 0 3px;
 background-color: rgba(0,0,0,0.8);
 }
 
-/* Caption text */
-/* .text2 {
-color: #f2f2f2;
-font-size: 15px;
-padding: 8px 12px;
-position: absolute;
-bottom: 8px;
-width: 100%;
-text-align: center;
-} */
-
-/* Number text (1/3 etc) */
-/* .numbertext2 {
-color: #f2f2f2;
-font-size: 12px;
-padding: 8px 12px;
-position: absolute;
-top: 0;
-} */
-
 /* The dots/bullets/indicators */
 .dot2 {
 cursor: pointer;
@@ -3434,7 +3029,6 @@ to {opacity: 1}
 @media only screen and (max-width: 300px) {
 .prev2, .next2,.text2 {font-size: 11px}
 }
-
 
 
   .footer .info {
@@ -3487,7 +3081,6 @@ to {opacity: 1}
   }
 
  
-
 }
   
   
